@@ -5,7 +5,9 @@
 ```html
 <header> | <footer> | <nav> | <aside> (sidebar) | <main> | <section> | <article>
 
-<details> <summary> </details> | <figure> <figcaption> </figure> | <dialog> (modal)
+<details> <summary> </details> | <figure> <figcaption> </figure>
+
+<fieldset> <legend> </fieldset> | <dialog> (modal)
 
 <address> (contact details) | <blockquote> (citation) | <time datetime="2025-02-05">05 February</time>
 ```
@@ -159,6 +161,72 @@ type="module"/>
 | Color / perception issues            | Contrast & visible labels | `alt`, visible text labels, sufficient contrast |
 
 # CSS
+
+## `::pseudoelements`:
+
+## `::pseudoelements`:
+
+| Pseudo-element   | What it means                                       |
+| ---------------- | --------------------------------------------------- |
+| `::before`       | Inserts content before element (requires `content`) |
+| `::after`        | Inserts content after element (requires `content`)  |
+| `::first-line`   | Styles first line of text block                     |
+| `::first-letter` | Styles first letter of text block                   |
+| `::selection`    | Styles highlighted/selected text                    |
+| `::placeholder`  | Styles placeholder text in inputs                   |
+| `::marker`       | Styles list item markers (`<li>`, `<summary>`)      |
+| `::backdrop`     | Styles backdrop behind modal/fullscreen             |
+| `::scroll-thumb` | Styles scrollbar thumb                              |
+| `::scroll-track` | Styles scrollbar track                              |
+
+## `:pseudoclasses`:
+
+#### Inputs (`input`, `textarea`, `select`)
+
+| Pseudo-class         | What it means                              |
+| -------------------- | ------------------------------------------ |
+| `:focus`             | Element has focus (clicked or tabbed into) |
+| `:focus-visible`     | Focus visible via keyboard navigation      |
+| `:active`            | Being clicked                              |
+| `:disabled`          | Has `disabled` attribute                   |
+| `:enabled`           | Not disabled                               |
+| `:read-only`         | Has `readonly`                             |
+| `:read-write`        | Editable field                             |
+| `:required`          | Has `required`                             |
+| `:optional`          | Not required                               |
+| `:valid`             | Passes validation                          |
+| `:invalid`           | Fails validation                           |
+| `:in-range`          | Value within `min/max`                     |
+| `:out-of-range`      | Value outside `min/max`                    |
+| `:checked`           | Checked (checkbox/radio)                   |
+| `:placeholder-shown` | Placeholder visible (empty input)          |
+| `:autofill`          | Autofilled by browser                      |
+
+#### Buttons (`button`, `input[type="button|submit"]`)
+
+| Pseudo-class     | What it means       |
+| ---------------- | ------------------- |
+| `:active`        | While clicking      |
+| `:focus`         | Has focus           |
+| `:focus-visible` | Focus from keyboard |
+| `:disabled`      | Disabled button     |
+| `:enabled`       | Active button       |
+
+#### Generic elements
+
+| Pseudo-class                   | What it means                                             |
+| ------------------------------ | --------------------------------------------------------- |
+| `:active`                      | While clicking                                            |
+| `:focus`                       | Element has focus                                         |
+| `:focus-visible`               | Keyboard focus                                            |
+| `:first-child`                 | First child in parent                                     |
+| `:last-child`                  | Last child in parent                                      |
+| `:nth-child(n)`                | Specific child index                                      |
+| `:not(selector)`               | Exclude elements                                          |
+| `:has(selector)`               | Allows to select an element that has something inside it. |
+| `:is(selector1, selector2)`    | apply styles to all elements inside group                 |
+| `:where(selector1, selector2)` | the same as `:is` but without `specificity = 0`           |
+| `:empty`                       | No children/text inside                                   |
 
 ## CSS-selectors
 
