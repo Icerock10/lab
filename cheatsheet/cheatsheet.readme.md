@@ -357,42 +357,55 @@ width: clapm(300px, 95vw, 1200px);
 
 `<transition>`
 
+**What can be animated?:**
+
+- `opacity | transform | width/height | margin/padding | color | border-radius | filter | SVG | scroll`
+
 ```CSS
 
 transition <property> | <duration> | <timing-function> | <delay>: margin-right 4s ease-in-out 1s;
 transition-timing-function: linear, steps(4, jump), cubic-bezier /* ease sets up by default */
 
-/* What can be animated?: */
-
-opacity | transform | width/height | margin/padding | color | border-radius | filter | SVG | scroll
-
 transition-behavior: allow-discrete; /* Transitions for discrete animated properties.
  (display, visibility, content: "", overflow, position ), will work only for outer animation */
 
  will-change: transform, background-color;  /* property to prevent repaint */
----------------------------------------------------------------------------------------
-transition triggers:
- - pseudo-classes (:hover, :active, :focus, :checked, ...)
- - class changes (JS / frameworks)
- - media queries
- - attribute changes ( input[aria-invalid="true"] )
- - pseudo-elements (::before / ::after)
 
-/* transition runs when computed value of property changes */
-/* transition is applied on state CHANGE (:hover, :active), not on the state itself */
+```
 
+**transition triggers**:
+
+- pseudo-classes (:hover, :active, :focus, :checked, ...)
+- class changes (JS / frameworks)
+- media queries
+- attribute changes ( input[aria-invalid="true"] )
+- pseudo-elements (::before / ::after)
+
+```
+**transition runs when computed value of property changes**
+**transition is applied on state CHANGE (:hover, :active), not on the state itself**
 ```
 
 `<transform>`
 
+```📌 Transform functions are applied from left to right,
+each one to a transformed system.
+```
+
+**What for?**:
+
+- `hover`
+- `open / close`
+- `show / hide`
+- `simple UI`
+
 ```CSS
 transform <translate(px | %)> | <skew(deg)> | <scale(number)> | <rotate(deg, rad, turn);
+
 translate <X> | <Y> | <Z>: 5px 5px 30px;
 
 transform: translateX(10px) rotate(10deg) translateY(5px);/* Multiple function values */
 
-/* 📌 Transform functions are applied from left to right,
-each one to a transformed system.*/
 transform-origin <x-offset> <y-offset> <z-offset>: bottom right 60px;  /* sets the origin for transformations. */
 
 /* performance */
@@ -400,16 +413,14 @@ transform | opacity; /* GPU */
 will-change: transform;
 top | left | width | height | margin; /* layout / paint heavy */
 
-/* What for?
-
-- hover
-- open / close
-- show / hide
-- simple UI  */
-
 ```
 
-`@keyframes`
+**`@keyframes`:**
+
+- `animation on :hover is removed immediately on hover out`
+- `animation cannot animate exit state`
+- `use transition for hover in/out `
+- `use classes + animation for enter/leave`
 
 ```CSS
 @keyframes animation-name {
@@ -436,17 +447,15 @@ forwards | backwards | both;
 /* direction */
 normal | reverse | alternate;
 
-animation <name> <duration> <timing-function> <delay> <iteration-count>
-<direction> <fill-mode> <play-state>
+/* animation itself */
+
+animation: <name> | <duration> | <timing-function> | <delay> | <iteration-count>
+<direction> | <fill-mode> | <play-state>
 
 .element {
   animation: animation-name 3s linear 1s infinite alternate both;
  }
 
-/* animation on :hover is removed immediately on hover out */
-/* animation cannot animate exit state */
-/* use transition for hover in/out */
-/* use classes + animation for enter/leave */
 ```
 
 # JS-Core
