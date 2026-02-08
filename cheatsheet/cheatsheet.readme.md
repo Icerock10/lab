@@ -14,7 +14,7 @@
 
 ## HTML Attributes:
 
-- `[disabled]` vs `[readonly]`:
+`[disabled]` vs `[readonly]`:
 
 ```CSS
 readonly - only for text fields => can't be edited => the value will be sent in the form
@@ -23,14 +23,14 @@ disabled - completely disabled from the interface => value WON"T be sent in the 
 
 ```
 
-- `[data-*]`
+`[data-*]`
 
 ```html
 <div data-user-id="123"></div>
 element.dataset.userId;
 ```
 
-- `[aria-*]`:
+`[aria-*]`:
 
 ```CSS
 aria-label="name" /*  —> text description of the element */
@@ -42,14 +42,14 @@ aria-controls="menu" /* —> controls another element*/
 
 ```
 
-- `[role="button | checkbox | progressbar"]`:
+`[role="button | checkbox | progressbar"]`:
 
 ```CSS
 <div role="button" tabindex="0" aria-pressed="false">
 /* If there is native HTML (<button>, <input type="checkbox">) → role is not needed */
 ```
 
-- `[tabIndex]`
+`[tabIndex]`
 
 ```html
 <div tabindex="0 | 1+ | -1"></div>
@@ -60,7 +60,7 @@ aria-controls="menu" /* —> controls another element*/
  -->
 ```
 
-- `<input>`
+`<input>`
 
 ```CSS
 <label for="id_input">Input label</label> /* binds to input */
@@ -90,7 +90,7 @@ aria-controls="menu" /* —> controls another element*/
 
 ```
 
-- `<button>`
+`<button>`
 
 ```CSS
 <button
@@ -101,7 +101,7 @@ value=""
 >
 ```
 
-- `<img>`
+`<img>`
 
 ```CSS
 <img
@@ -114,7 +114,7 @@ height=""
 loading="lazy"
 ```
 
-- `<a>`
+`<a>`
 
 ```CSS
 <a
@@ -124,7 +124,7 @@ rel="noopener"
 download
 ```
 
-- `<form>`
+`<form>`
 
 ```CSS
 <form
@@ -134,7 +134,7 @@ enctype="multipart/form-data" /* for files upload */
 />
 ```
 
-- `<script>`
+`<script>`
 
 ```CSS
 <script
@@ -144,7 +144,7 @@ async /* parallel loading */
 type="module"/>
 ```
 
-- `<select>`
+`<select>`
 
 ```CSS
 <select name="" multiple disabled>
@@ -161,8 +161,6 @@ type="module"/>
 | Color / perception issues            | Contrast & visible labels | `alt`, visible text labels, sufficient contrast |
 
 # CSS
-
-## `::pseudoelements`:
 
 ## `::pseudoelements`:
 
@@ -216,9 +214,6 @@ type="module"/>
 
 | Pseudo-class                   | What it means                                             |
 | ------------------------------ | --------------------------------------------------------- |
-| `:active`                      | While clicking                                            |
-| `:focus`                       | Element has focus                                         |
-| `:focus-visible`               | Keyboard focus                                            |
 | `:first-child`                 | First child in parent                                     |
 | `:last-child`                  | Last child in parent                                      |
 | `:nth-child(n)`                | Specific child index                                      |
@@ -232,7 +227,7 @@ type="module"/>
 
 [Open PDF](./css-selector.pdf)
 
-## Grid - **two dimensional axis**
+## `Grid` - **two dimensional axis**
 
 `Parent props`
 
@@ -271,7 +266,7 @@ grid-area: 1 / 2 / 3 / 4;
 /* row-start / col-start / row-end / col-end */
 ```
 
-`Examples Grid`
+`Examples`
 
 ```CSS
 
@@ -289,7 +284,7 @@ grid-template-columns: repeat(3, 150px) 1fr;  /* last col take remaining space *
 
 ```
 
-## Flex - **one dimensional axis**
+## `Flex` - **one dimensional axis**
 
 `Parent props`
 
@@ -443,16 +438,21 @@ transition-behavior: allow-discrete; /* Transitions for discrete animated proper
 
 ```
 
-`**transition triggers**`:
+**transition triggers**:
 
-- `pseudo-classes (:hover, :active, :focus, :checked, ...)`
-- `class changes (JS / frameworks)`
-- `media queries`
-- `attribute changes ( input[aria-invalid="true"] )`
-- `pseudo-elements (::before / ::after)`
+```html 
+- pseudo-classes (:hover, :active, :focus, :checked, ...)`
+- class changes (JS / frameworks)`
+- media queries`
+- attribute changes ( input[aria-invalid="true"] )`
+- pseudo-elements (::before / ::after)`
+```
 
-- `**transition runs when computed value of property changes**`
-- `**transition is applied on state CHANGE (:hover, :active), not on the state itself**`
+```html
+- transition runs when computed value of property changes
+- transition is applied on state CHANGE (:hover, :active), not on the state itself
+```
+---
 
 `<transform>`: 📌 **Transform functions are applied from left to right,each one to a transformed system**
 
@@ -481,10 +481,13 @@ top | left | width | height | margin; /* layout / paint heavy */
 
 **`@keyframes`:**
 
-- `animation on :hover is removed immediately on hover out`
-- `animation cannot animate exit state`
-- `use transition for hover in/out `
-- `use classes + animation for enter/leave`
+```html
+- animation on :hover is removed immediately on hover out
+- animation cannot animate exit state
+- use transition for hover in/out 
+- use classes + animation for enter/leave
+```
+---
 
 ```CSS
 @keyframes animation-name {
@@ -802,22 +805,26 @@ set.clear(); // remove all
 
 ### `forEach((elem, index) => {})`:
 
-- `arrays []`
-- `new Set()`
-- `new Map()`
-
+```js 
+arrays []
+new Set()
+new Map()
+```
 ### `for(const elem of iterable) {}`:
 
-- `arrays []`
-- `strings ''`
-- `new Set {}`
-- `new Map() -> [key, val]`
-- `NodeList[]`
+```js 
+arrays []`
+strings ''
+new Set {}
+new Map() -> [key, val]
+NodeList[]
+```
 
 ### `for(const key in obj) {}`:
-
-- `arrays []` -> `for(const index in arr) {}` -> `indices as strings`
-- `objects {}`
+```js 
+arrays [] // -> for(const index in arr) {}` -> `indices as strings`
+objects {}
+```
 
 ## `Destructuring [] {}`:
 
