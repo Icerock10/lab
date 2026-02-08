@@ -160,6 +160,10 @@ type="module"/>
 
 # CSS
 
+## CSS-selectors
+
+[Open PDF](./css-selector.pdf)
+
 ## Grid - **two dimensional axis**
 
 `Parent props`
@@ -216,8 +220,6 @@ grid-template-rows: auto 1fr auto; /* Create asymmetric layouts easily */
 grid-template-columns: repeat(3, 150px) 1fr;  /* last col take remaining space */
 
 ```
-
-[Open PDF](./css-selector.pdf)
 
 ## Flex - **one dimensional axis**
 
@@ -574,6 +576,8 @@ element.addEventListener('change', callback, true); // ✅ capturing
 element.addEventListener('animationend', callback, { once: true, capture: false }); // once runs function only once
 ```
 
+---
+
 **Event delegation (one listener per container):**
 
 ```js
@@ -585,6 +589,190 @@ container.addEventListener('click', (e) => {
     handler();
   }
 });
+```
+
+## Arrays
+
+### `Searching`:
+
+```js
+// returns the first element in the array that satisfies testing function or undefined
+[2, 12].find((el) => el > 10); // → 12
+
+// returns the index of first element in the array that satisfies testing function or -1
+[2, 12].findIndex((el) => el > 10); // → 1 (index)
+
+// returns the first index at which a given element can be found in the array, or -1
+['first', 'second'].indexOf('first'); // → 0 (index)
+// determines whether an array includes a certain value among its entries, returning true or false as appropriate.
+
+['first', 'second'].includes('none'); // → false
+```
+
+### `Adding & Removing Elements (mutates array)`:
+
+```js
+[2, 12].push('a'); // → [2, 12, ‘a’]
+
+// add an item to the start of the array and returns new length of the array
+['first', 'second'].unshift(item); // → 3 (length)
+
+// remove an item from the end and return it
+[2, 12].pop(); // → 12
+
+// remove an item from start of the array and returns it
+['first', 'second'].shift(); // → first
+
+// splice(start, deleteCount, ...items), Removes/adds elements by index
+[1, 2, 3].splice(1, 1, 99); // → [1, 99, 3]
+
+// sort(compareFn), sorts the elements of an array in place and returns the reference to the same sorted arr
+[3, 2, 1].sort((a, b) => a - b); // → [1, 2, 3]
+```
+
+### `Transformations & Checks`:
+
+```js
+// slice(start, end), returns a shallow copy of a portion of an array into a new array
+[2, 12, 45].slice(0, 2); // -> [2, 12]
+
+// initialValue is → start from it.initialValue no → start from arr[0], skipping it.
+[].reduce((acc, value) => {}, init); // -> init = {}
+
+// returns Boolean if it finds one element in the array that satisfies the testing function
+[1, 2, 3].some((el) => el % 2 === 0); // -> true
+
+// returns Boolean if it finds one element in the array that does not satisfy the testing function
+
+[2, 10, 15].every((el) => el < 40); // -> true
+```
+
+## Objects
+
+### `Searching (by index, or elem itself)`:
+
+```js
+const obj = { name: 'Alice' };
+// checks if any key exists, returns Boolean
+'key' in obj; // true
+
+// checks own key only (not prototype), returns Boolean
+obj.hasOwnProperty('k');
+Object.hasOwn(obj, 'name'); // false
+
+// returns an object describing the configuration of a specific property
+const descriptor = Object.getOwnPropertyDescriptor(obj, 'id');
+console.log(descriptor.configurable); // true
+```
+
+### `Basic operations { add / remove / copy, compare }`:
+
+```js
+// add or update value (mutates)
+obj.newKey = value;
+delete obj.key;
+
+// Strict comparison (NaN === NaN,+0 !== -0)
+Object.is(false, false); // true
+
+// creates deep copy of an object
+const deep = structuredClone(obj); // {}
+JSON.parse(JSON.stringify(obj));
+
+// create and update without mutating (shallow)
+
+const newObj = { ...obj, newKey: value };
+Object.assign({}, obj, { newKey: value });
+
+const obj = { name: 'Alice', age: 5 };
+Object.keys(obj); // ['name', 'age']
+Object.values(obj); // ['Alice', 5]
+Object.entries(obj); // [Array(2), Array(2)]
+
+// fromEntries -> transforms FormData/Map
+Object.fromEntries(iterable); // pairs into { key: val }
+```
+
+## Map/Set
+
+### `Map()`:
+
+```js
+const map = new Map([
+  ['a', 1],
+  ['b', 5],
+]); // Map(2) {'a' => 1, 'b' => 5}
+map.set('name', 'Alex'); // add/update
+map.get('a'); // 1
+map.keys(); // MapIterator {'a', 'b', 'name'}
+map.values(); // MapIterator {1, 5, 'Alex'}
+map.entries(); // iterator of [key, value]
+```
+
+### `Set()`:
+
+```js
+const set = new Set(); // Set(0) {size: 0}
+const unique = new Set([1, 2, 3, 3, 3]); // Set(3) {1, 2, 3}
+unique.add('banana'); // Set(4) {1, 2, 3, 'banana'}
+const first = unique.values().next().value; // 1, returns first value
+const last = [...unique][unique.size - 1]; // 'banana', returns last
+set.delete('banana'); // Set(3) {1, 2, 3} removes elem
+set.has('apple'); // checks for prop
+set.size; // 3, shows size of the Set
+set.clear(); // remove all
+```
+
+## Iterable
+
+### `forEach((elem, index) => {})`:
+
+- `arrays []`
+- `new Set()`
+- `new Map()`
+
+### `for(const elem of iterable) {}`:
+
+- `arrays []`
+- `strings ''`
+- `new Set {}`
+- `new Map() -> [key, val]`
+- `NodeList[]`
+
+### `for(const key in obj) {}`:
+
+- `arrays []` -> `for(const index in arr) {}` -> `indices as strings`
+- `objects {}`
+
+## `Destructuring [] {}`:
+
+```js
+const [first, , third] = [1, 2, 3]; // 1, 3 -> Skipping elements
+
+const [a = 5, b = 10] = [1]; // 1, 10 -> default values
+
+const { role = 'guest' } = user;
+
+const [head, ...rest] = [1, 2, 3, 4]; // rest: [2, 3, 4]
+
+const { name: username } = user; // username: "Alex" ->  Renaming variables
+
+const obj = { items: [1, 2, 3] };
+const {
+  items: [x, y],
+} = obj; // x: 2, y: 3 -> Nested Destructuring
+
+const arr = [{ id: 1, value: 42 }];
+const [{ value }] = arr; // { id: 1, value: 42 }
+
+const nestedObj = { user: { value: 42 } };
+const {
+  user: { value },
+} = nestedObj; // 42
+
+// Additional use-cases
+
+const { length, [length - 1]: last } = [1, 2, 3, 4, 5, 6]; // get last element
 ```
 
 # React
