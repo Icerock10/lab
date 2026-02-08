@@ -477,12 +477,19 @@ try {
 
 ### `Promise API`:
 
-| API                                 | Shape                                      | What returns                                 |
-| ----------------------------------- | ------------------------------------------ | -------------------------------------------- |
-| `Promise.all([promise1, promise2])` | `[Response, Response]` -> needs `await`    | all or nothing, ❌ rejects if any fails      |
-| `Promise.allSettled([p1, p2])`      | `[{status: 'fulfilled', value: Response}]` | show everything, ✅ never rejects            |
-| `Promise.race([p1, p2]) `           | `Response<type, status>`                   | fastest wins (resolve or reject)             |
-| `Promise.any([p1, p2]) `            | `Response<type, status>`                   | first success, ❌ rejects only if all reject |
+```js
+// all or nothing, ❌ rejects if any fails
+Promise.all([promise1, promise2]); // -> [Response, Response]` | needs 'await'
+
+// show everything, ✅ never rejects
+Promise.allSettled([p1, p2]); // -> [{status: 'fulfilled', value: Response}]
+
+// fastest wins (resolve or reject)
+Promise.race([p1, p2]); // -> Response<type, status>
+
+// first success, ❌ rejects only if all reject
+Promise.any([p1, p2]); // -> Response<type, status>
+```
 
 ---
 
