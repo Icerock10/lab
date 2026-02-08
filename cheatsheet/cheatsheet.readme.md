@@ -456,7 +456,7 @@ animation: <name> | <duration> | <timing-function> | <delay> | <iteration-count>
 
 ## Async
 
-`Promises`: **pending** | **fulfilled** | **rejected**
+### Promises: `pending` | `fulfilled` | `rejected`
 
 ```js
 const promise = new Promise((resolve, reject) => resolve(any));
@@ -473,7 +473,9 @@ try {
 }
 ```
 
-`Promise API`:
+### Promise API:
+
+---
 
 | API                                 | Shape                                      | What returns                                 |
 | ----------------------------------- | ------------------------------------------ | -------------------------------------------- |
@@ -482,7 +484,11 @@ try {
 | `Promise.race([p1, p2]) `           | `Response<type, status>`                   | fastest wins (resolve or reject)             |
 | `Promise.any([p1, p2]) `            | `Response<type, status>`                   | first success, ❌ rejects only if all reject |
 
-`Micro/Macrotasks` - **Microtask queue (runs before macroTasks)**:
+---
+
+### 📦 Micro/Macrotasks - `**Microtask queue (runs before macroTasks)**`:
+
+---
 
 | MacroTasks                 | MicroTasks          |
 | -------------------------- | ------------------- |
