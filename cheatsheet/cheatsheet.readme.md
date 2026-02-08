@@ -373,24 +373,18 @@ transition-behavior: allow-discrete; /* Transitions for discrete animated proper
 
 ```
 
-**transition triggers**:
+`**transition triggers**`:
 
-- pseudo-classes (:hover, :active, :focus, :checked, ...)
-- class changes (JS / frameworks)
-- media queries
-- attribute changes ( input[aria-invalid="true"] )
-- pseudo-elements (::before / ::after)
+- `pseudo-classes (:hover, :active, :focus, :checked, ...)`
+- `class changes (JS / frameworks)`
+- `media queries`
+- `attribute changes ( input[aria-invalid="true"] )`
+- `pseudo-elements (::before / ::after)`
 
-```
-**transition runs when computed value of property changes**
-**transition is applied on state CHANGE (:hover, :active), not on the state itself**
-```
+- `**transition runs when computed value of property changes**`
+- `**transition is applied on state CHANGE (:hover, :active), not on the state itself**`
 
-`<transform>`
-
-```📌 Transform functions are applied from left to right,
-each one to a transformed system.
-```
+`<transform>`: 📌 **Transform functions are applied from left to right,each one to a transformed system**
 
 **What for?**:
 
@@ -459,6 +453,52 @@ animation: <name> | <duration> | <timing-function> | <delay> | <iteration-count>
 ```
 
 # JS-Core
+
+## Async
+
+`Promises`: **pending** | **fulfilled** | **rejected**
+
+```js
+const promise = new Promise((resolve, reject) => resolve(any));
+// resolve(value) -> fulfilled | reject(error) -> rejected
+
+promise
+  .then((res) => {}) // Response<type, status>
+  .catch((error) => {})
+  .finally(() => {}); // finally for side effects | does not receive data | doesn't break the chain
+
+try {
+} catch (error) {
+} finally {
+}
+```
+
+`Promise API`:
+
+| API                                 | Shape                                      | What returns                                 |
+| ----------------------------------- | ------------------------------------------ | -------------------------------------------- |
+| `Promise.all([promise1, promise2])` | `[Response, Response]` -> needs `await`    | all or nothing, ❌ rejects if any fails      |
+| `Promise.allSettled([p1, p2])`      | `[{status: 'fulfilled', value: Response}]` | show everything, ✅ never rejects            |
+| `Promise.race([p1, p2]) `           | `Response<type, status>`                   | fastest wins (resolve or reject)             |
+| `Promise.any([p1, p2]) `            | `Response<type, status>`                   | first success, ❌ rejects only if all reject |
+
+`Micro/Macrotasks` - **Microtask queue (runs before macroTasks)**:
+
+| MacroTasks                 | MicroTasks          |
+| -------------------------- | ------------------- |
+| `setTimeout()`             | `Promise.then()`    |
+| `setInterval()`            | `Promise.catch()`   |
+| `setImmediate() (Node.js)` | `Promise.finally()` |
+| `DOM events`               | `queueMicrotask()`  |
+
+```js
+console.log(1);
+Promise.resolve().then(() => console.log(2));
+setTimeout(() => console.log(3));
+console.log(4);
+
+// 1 4 2 3
+```
 
 # DOM
 
