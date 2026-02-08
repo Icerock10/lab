@@ -162,7 +162,7 @@ type="module"/>
 
 ## Grid - **two dimensional axis**
 
-- `Parent props`
+`Parent props`
 
 ```CSS
 grid-template-columns: 200px 1fr; /* defines width of columns */
@@ -181,7 +181,7 @@ place-items <align-items> | <justify-items>: start, end, stretch;
 place-content <align-content> | <justify-content>: center;
 ```
 
-- `Child props`
+`Child props`
 
 ```CSS
 grid-column <start> | <end>: 1 / span 3;
@@ -199,7 +199,7 @@ grid-area: 1 / 2 / 3 / 4;
 /* row-start / col-start / row-end / col-end */
 ```
 
-- `Examples Grid`
+`Examples Grid`
 
 ```CSS
 
@@ -221,7 +221,7 @@ grid-template-columns: repeat(3, 150px) 1fr;  /* last col take remaining space *
 
 ## Flex - **one dimensional axis**
 
-- `Parent props`
+`Parent props`
 
 ```CSS
 flex-flow <flex-direction> | <flex-wrap>: row wrap;
@@ -231,7 +231,7 @@ align-content: flex-start | center | space-between; /* Align multiple lines (onl
 column-gap: 30px;
 ```
 
-- `Child props`
+`Child props`
 
 ```CSS
 flex <flex-grow> | <flex-shrink> | <flex-basis> : 0 1 auto;
@@ -241,7 +241,7 @@ margin: auto; /* center item in all directions */
 order: -1; /* move earlier */
 ```
 
-- `Flex Examples`:
+`Flex Examples`:
 
 ```CSS
 /* Create flex grid alternative */
@@ -269,7 +269,7 @@ min-height: 100vh;
 
 ## Responsive
 
-### Relative units:
+`Relative units:`
 
 ```CSS
 width: 100%; /* percentage of parent */
@@ -279,7 +279,7 @@ padding: 2em; /* relative to font-size */
 padding: 2rem; /* relative to root font-size */
 ```
 
-### Container-responsive:
+`Container-responsive:`
 
 ```CSS
 
@@ -297,7 +297,7 @@ padding: 2rem; /* relative to root font-size */
 
 ```
 
-### Common breakpoints:
+`Common breakpoints:`
 
 ```
 sm: 640px
@@ -307,7 +307,7 @@ xl: 1280
 2xl: 1536px
 ```
 
-### Image-responsive:
+`Image-responsive:`
 
 ```CSS
 /* Scale with parent */
@@ -333,7 +333,7 @@ background-position: center;
 </picture>
 ```
 
-### Clamp() calc():
+`Clamp() calc():`
 
 ```CSS
 
@@ -345,12 +345,108 @@ min-height: calc(100vh - 80px); //height - header
 ---------------------------------------------------
 font-size: clamp(1.8rem, 1.5vw, 3.5rem);
 
-font-size: clamp(1rem, 2.5vw, 3rem); 
+font-size: clamp(1rem, 2.5vw, 3rem);
 /* min 1rem, grows with 2.5% of vw, max 3rem */
 
 /* Dynamic sizing */
 width: clapm(300px, 95vw, 1200px);
 
+```
+
+## Animations
+
+`<transition>`
+
+```CSS
+
+transition <property> | <duration> | <timing-function> | <delay>: margin-right 4s ease-in-out 1s;
+transition-timing-function: linear, steps(4, jump), cubic-bezier /* ease sets up by default */
+
+/* What can be animated?: */
+
+opacity | transform | width/height | margin/padding | color | border-radius | filter | SVG | scroll
+
+transition-behavior: allow-discrete; /* Transitions for discrete animated properties.
+ (display, visibility, content: "", overflow, position ), will work only for outer animation */
+
+ will-change: transform, background-color;  /* property to prevent repaint */
+---------------------------------------------------------------------------------------
+transition triggers:
+ - pseudo-classes (:hover, :active, :focus, :checked, ...)
+ - class changes (JS / frameworks)
+ - media queries
+ - attribute changes ( input[aria-invalid="true"] )
+ - pseudo-elements (::before / ::after)
+
+/* transition runs when computed value of property changes */
+/* transition is applied on state CHANGE (:hover, :active), not on the state itself */
+
+```
+
+`<transform>`
+
+```CSS
+transform <translate(px | %)> | <skew(deg)> | <scale(number)> | <rotate(deg, rad, turn);
+translate <X> | <Y> | <Z>: 5px 5px 30px;
+
+transform: translateX(10px) rotate(10deg) translateY(5px);/* Multiple function values */
+
+/* 📌 Transform functions are applied from left to right,
+each one to a transformed system.*/
+transform-origin <x-offset> <y-offset> <z-offset>: bottom right 60px;  /* sets the origin for transformations. */
+
+/* performance */
+transform | opacity; /* GPU */
+will-change: transform;
+top | left | width | height | margin; /* layout / paint heavy */
+
+/* What for?
+
+- hover
+- open / close
+- show / hide
+- simple UI  */
+
+```
+
+`@keyframes`
+
+```CSS
+@keyframes animation-name {
+  from {
+    transform: translateX(0%);
+    animation-timing-function: ease-out;
+  }
+
+  to {
+    transform: translateX(100%);
+    animation-timing-function: ease-in;
+  }
+}
+
+@keyframes animation-name {
+0% {}
+50%{}
+100%{}
+ }
+
+/* fill-mode */
+forwards | backwards | both;
+
+/* direction */
+normal | reverse | alternate;
+
+animation <name> <duration> <timing-function> <delay> <iteration-count>
+<direction> <fill-mode> <play-state>
+
+.element {
+  animation: animation-name 3s linear 1s infinite alternate both;
+ }
+
+/* animation on :hover is removed immediately on hover out */
+/* animation cannot animate exit state */
+/* use transition for hover in/out */
+/* use classes + animation for enter/leave */
 ```
 
 # JS-Core
