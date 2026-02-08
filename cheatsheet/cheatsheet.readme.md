@@ -30,12 +30,15 @@ element.dataset.userId;
 
 - `[aria-*]`:
 
-- `aria-label` —> text description of the element
-- `aria-hidden="true"` —> hide from screen reader
-- `aria-expanded="true/false"` —> isOpened dropdown
-- `aria-checked="true/false"` —> custom checkbox state
-- `aria-disabled="true"` —> "logically" locked
-- `aria-controls="menu"` —> controls another element
+```CSS
+aria-label /*  —> text description of the element */
+aria-hidden="true" /* —> hide from screen reader */
+aria-expanded="true/false" /* —> isOpened dropdown*/
+aria-checked="true/false" /* —> custom checkbox state*/
+aria-disabled="true" /* —> "logically" locked*/
+aria-controls="menu" /* —> controls another element*/
+
+```
 
 - `[role="button | checkbox | progressbar"]`:
 
