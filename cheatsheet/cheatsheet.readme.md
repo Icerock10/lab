@@ -456,7 +456,7 @@ animation: <name> | <duration> | <timing-function> | <delay> | <iteration-count>
 
 ## Async
 
-### Promises: `pending` | `fulfilled` | `rejected`
+### `Promises`: `pending` | `fulfilled` | `rejected`
 
 ```js
 const promise = new Promise((resolve, reject) => resolve(any));
@@ -475,8 +475,6 @@ try {
 
 ### Promise API:
 
----
-
 | API                                 | Shape                                      | What returns                                 |
 | ----------------------------------- | ------------------------------------------ | -------------------------------------------- |
 | `Promise.all([promise1, promise2])` | `[Response, Response]` -> needs `await`    | all or nothing, ❌ rejects if any fails      |
@@ -487,8 +485,6 @@ try {
 ---
 
 ### 📦 Micro/Macrotasks - `**Microtask queue (runs before macroTasks)**`:
-
----
 
 | MacroTasks                 | MicroTasks          |
 | -------------------------- | ------------------- |
