@@ -267,6 +267,92 @@ min-height: 100vh;
 
 ```
 
+## Responsive
+
+### Relative units:
+
+```CSS
+width: 100%; /* percentage of parent */
+width: 50vw; /* 50% of viewport width */
+width: 50vh; /* 50% of viewport height */
+padding: 2em; /* relative to font-size */
+padding: 2rem; /* relative to root font-size */
+```
+
+### Container-responsive:
+
+```CSS
+
+/* Prevent too wide on large screens */
+.container {
+	width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Prevent too small on small screens */
+.container {
+	width: 100%;
+  min-width: 300px;
+}
+
+```
+
+### Common breakpoints:
+
+```
+sm: 640px
+md: 768px
+lg: 1024px;
+xl: 1280
+2xl: 1536px
+```
+
+### Image-responsive:
+
+```CSS
+/* Scale with parent */
+img {
+	width: 100%;
+  height: auto;
+}
+
+/* Responsive background image */
+background-image: url('small.jpg');
+background-size: cover;
+background-position: center;
+
+@media (min-width: 1024px) {
+	background-image: url('large.jpg');
+}
+
+/* Picture element (HTML) */
+<picture>
+  <source media="(min-width: 1024px)" srcset="large.jpg">
+  <source media="(min-width: 768px)" srcset="medium.jpg">
+  <img src="small.jpg" alt="">
+</picture>
+```
+
+### Clamp() calc():
+
+```CSS
+
+/* common patterns with clamp + calc */
+clamp(min, preferred, max)
+
+width: calc(100% - 2rem); //-1 rem from left and right
+min-height: calc(100vh - 80px); //height - header
+---------------------------------------------------
+font-size: clamp(1.8rem, 1.5vw, 3.5rem);
+
+font-size: clamp(1rem, 2.5vw, 3rem); 
+/* min 1rem, grows with 2.5% of vw, max 3rem */
+
+/* Dynamic sizing */
+width: clapm(300px, 95vw, 1200px);
+
+```
+
 # JS-Core
 
 # DOM
