@@ -456,7 +456,7 @@ animation: <name> | <duration> | <timing-function> | <delay> | <iteration-count>
 
 ## Async
 
-### `Promises`: `pending` | `fulfilled` | `rejected`
+### `<Promises>`: `pending` | `fulfilled` | `rejected`
 
 ```js
 const promise = new Promise((resolve, reject) => resolve(any));
@@ -473,7 +473,7 @@ try {
 }
 ```
 
-### Promise API:
+### `Promise API`:
 
 | API                                 | Shape                                      | What returns                                 |
 | ----------------------------------- | ------------------------------------------ | -------------------------------------------- |
@@ -484,7 +484,7 @@ try {
 
 ---
 
-### 📦 Micro/Macrotasks - `**Microtask queue (runs before macroTasks)**`:
+### 📦 Micro/Macrotasks:
 
 | MacroTasks                 | MicroTasks          |
 | -------------------------- | ------------------- |
@@ -492,6 +492,8 @@ try {
 | `setInterval()`            | `Promise.catch()`   |
 | `setImmediate() (Node.js)` | `Promise.finally()` |
 | `DOM events`               | `queueMicrotask()`  |
+
+`Microtask queue (runs before macroTasks)`:
 
 ```js
 console.log(1);
@@ -502,7 +504,88 @@ console.log(4);
 // 1 4 2 3
 ```
 
-# DOM
+## DOM
+
+### DOM traversal:
+
+- `closest()` -> **search to `BOTTOM` (finds the first matching child element within the current node.)**
+- `querySelector()` -> **search to `TOP` (going through the parents until it finds an element that matches the selector.)**
+- `matches()` -> **show `current Element` (gets element itself)**
+
+```js
+const itemById = document.getElementById('myId'); // HTMLParagraphElement
+const itemBySelector = document.querySelector(selector); // selector: "tag" | ".myClass" | "#id"
+const itemsBySelector = document.querySelectorAll('form, form .input'); // Nodelist
+const getClosest = element.closest(selector); // "[data-role='modal']" | "ul > li.active" | "#id"
+const getMatched = element.matches(selector);
+
+// Access
+
+element.parentNode; // HTMLDivElement
+element.children; // HTMLCollection live {}
+element.childNodes; // NodeList
+element.firstElementChild; // HTMLDivElement
+element.nextElementSibling; // HTMLDivElement
+```
+
+### Change of content:
+
+```js
+const element = document.createElement('div');
+element.textContent = 'text'; // Set text content
+element.innerHTML = '<b>HTML</b>'; // Set inner HTML, updates DOM
+```
+
+### Modify:
+
+```js
+// Class changes
+element.classList.remove('class'); // Remove class
+element.classList.toggle('class'); // Toggle class
+element.classList.contains('class'); // check existence
+
+// get/set Attribute
+
+element.getAttribute('attr-name');
+element.setAttribute('attr-name', 'value');
+
+// Append/Remove elems
+element.remove(); // Remove element from DOM
+element.appendChild(element); // adds element
+element.append / prepend(childElem, 'text'); //Append multiple elements or text
+```
+
+### **addEventListener**(`type`, `listener`, `options`):
+
+**Event Flow (3 phases):**
+
+- `1. Capturing (from top to bot)` ↓
+- `2. Target (on the element)` ●
+- `3. Bubbling (from bot to top)` ↑
+
+---
+
+- **type**: `click` | `change` | `input`(insta value track) | `animationend` (lets animation run)
+- **options**: `once: true` (cleans listener) | `capture: boolean`
+
+```js
+element.addEventListener('click', callback, false); // ✅ bubbling (default)
+element.addEventListener('change', callback, true); // ✅ capturing
+element.addEventListener('animationend', callback, { once: true, capture: false }); // once runs function only once
+```
+
+**Event delegation (one listener per container):**
+
+```js
+container.addEventListener('click', (e) => {
+  if (e.target.matches('button')) {
+    handler();
+  }
+  if (e.target.tagName === 'BUTTON') {
+    handler();
+  }
+});
+```
 
 # React
 
