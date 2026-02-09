@@ -680,6 +680,16 @@ container.addEventListener('click', (e) => {
 
 ## Arrays
 
+### `Create`:
+
+```js
+// create with indexes
+[...Array(3).keys()] // [0, 1, 2]
+// empty array with undefineds, we can insert into fill('') 
+Array(3).fill() // [undefined, undefined, undefined]
+
+```
+
 ### `Searching`:
 
 ```js
