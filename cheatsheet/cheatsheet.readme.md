@@ -440,18 +440,17 @@ transition-behavior: allow-discrete; /* Transitions for discrete animated proper
 
 **transition triggers**:
 
-```html 
-- pseudo-classes (:hover, :active, :focus, :checked, ...)`
-- class changes (JS / frameworks)`
-- media queries`
-- attribute changes ( input[aria-invalid="true"] )`
-- pseudo-elements (::before / ::after)`
+```html
+- pseudo-classes (:hover, :active, :focus, :checked, ...)` - class changes (JS / frameworks)` -
+media queries` - attribute changes ( input[aria-invalid="true"] )` - pseudo-elements (::before /
+::after)`
 ```
 
 ```html
-- transition runs when computed value of property changes
-- transition is applied on state CHANGE (:hover, :active), not on the state itself
+- transition runs when computed value of property changes - transition is applied on state CHANGE
+(:hover, :active), not on the state itself
 ```
+
 ---
 
 `<transform>`: 📌 **Transform functions are applied from left to right,each one to a transformed system**
@@ -482,11 +481,10 @@ top | left | width | height | margin; /* layout / paint heavy */
 **`@keyframes`:**
 
 ```html
-- animation on :hover is removed immediately on hover out
-- animation cannot animate exit state
-- use transition for hover in/out 
-- use classes + animation for enter/leave
+- animation on :hover is removed immediately on hover out - animation cannot animate exit state -
+use transition for hover in/out - use classes + animation for enter/leave
 ```
+
 ---
 
 ```CSS
@@ -585,6 +583,17 @@ console.log(4);
 ```
 
 ## DOM
+
+### DOM patterns:
+
+```js
+const DOM = {
+  myButton: document.querySelector('.btn'),
+  input: document.querySelector('.input'),
+};
+
+DOM.myButton = document.createElement({ tagName: 'div' });
+```
 
 ### DOM traversal:
 
@@ -805,14 +814,15 @@ set.clear(); // remove all
 
 ### `forEach((elem, index) => {})`:
 
-```js 
+```js
 arrays []
 new Set()
 new Map()
 ```
+
 ### `for(const elem of iterable) {}`:
 
-```js 
+```js
 arrays []`
 strings ''
 new Set {}
@@ -821,7 +831,8 @@ NodeList[]
 ```
 
 ### `for(const key in obj) {}`:
-```js 
+
+```js
 arrays [] // -> for(const index in arr) {}` -> `indices as strings`
 objects {}
 ```
