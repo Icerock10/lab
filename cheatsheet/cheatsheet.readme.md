@@ -879,6 +879,101 @@ const { length, [length - 1]: last } = [1, 2, 3, 4, 5, 6]; // get last element
 
 # React
 
+## What is virtual DOM and how it works:
+
+**It's a JavaScript object that mirrors the structure of the actual DOM tree.**
+**How it works:**
+
+- React creates a `Virtual DOM tree`, when `state` or `props` change - it creates `new Virtual DOM tree`.
+- React compares (`diffs`) and `updates` only specific parts in the `real DOM`.
+  It boosts perfomance - update Real DOM is `slow` and `expensive`.
+
+## Controlled component vs Uncontrolled:
+
+- `Controlled` - `react` controls the component state, `react` is the single source of truth
+- `Uncontrolled` - DOM itself controls the component state, accessing value directly from the `DOM` using a `ref` when needed
+
+## Component lifecycle:
+
+### Mounting:
+
+1. `constructor()`
+2. `getDerivedStateFromProps()`
+3. `render()`
+4. `componentDidMount()`
+
+### Updating:
+
+1. `getDerivedStateFromProps()`
+2. `shouldComponentUpdate()`
+3. `render()`
+4. `getSnapshotBeforeUpdate()`
+5. `componentDidUpdate()`
+
+### Unmounting:
+
+`componentWillUnmount()`
+
+```js
+class App extends Component<PropsType, AppType> {
+  // mounting
+  constructor(props: object) { -> 1
+    super(props); // initiate the parent's constructor method
+    this.state = {
+      // inheriting methods from its parent (React.Component).
+      count: 0,
+      users: [],
+    };
+  }
+  static getDerivedStateFromProps(props, state) { -> 2
+    // called right before rendering the element(s) in the DOM + also at updates
+    // returns an object with changes to the state
+    return { favoritecolor: props.favcol };
+  }
+
+  componentDidMount() { -> 4
+    setTimeout(() => {
+      // called after the component is rendered.
+      this.setState({ favoritecolor: 'yellow' });
+    }, 1000);
+  }
+
+  // updating
+
+  shouldComponentUpdate() {
+    // Stops the component from rendering at any update
+    return false; // true by default
+  }
+
+  getSnapshotBeforeUpdate(prevProps, prevState) {
+    //  find out what the state object looked like before the
+    document.getElementById('div1').innerHTML = prevState.favoritecolor; // update, kinda prev state
+  }
+
+  componentDidUpdate() {
+    // Perform actions after the component has been updated
+    document.getElementById('div2').innerHTML =
+      'The updated favorite is ' + this.state.favoritecolor;
+  }
+
+  // unmounting
+  componentWillUnmount() {
+    // this will be the last lifecycle
+    clearTimeout(this.timer); // clear timer
+  }
+
+  render() { -> 3
+    return (
+      // rendering the DOM, calls on mount and on update
+      <>
+        <div>Hi Im app</div>
+        <button onClick={this.sortByAge.bind(this)}>Bind</button> {/* bind() to bind context */}
+      </>
+    );
+  }
+}
+```
+
 # TS
 
 ## Basic Types:
