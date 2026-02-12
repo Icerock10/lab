@@ -684,10 +684,9 @@ container.addEventListener('click', (e) => {
 
 ```js
 // create with indexes
-[...Array(3).keys()] // [0, 1, 2]
-// empty array with undefineds, we can insert into fill('') 
-Array(3).fill() // [undefined, undefined, undefined]
-
+[...Array(3).keys()]; // [0, 1, 2]
+// empty array with undefineds, we can insert into fill('')
+Array(3).fill(); // [undefined, undefined, undefined]
 ```
 
 ### `Searching`:
@@ -881,3 +880,260 @@ const { length, [length - 1]: last } = [1, 2, 3, 4, 5, 6]; // get last element
 # React
 
 # TS
+
+## Basic Types:
+
+- `any`
+- `unknown` - **Save version of `any`, but cant use without a check, used with unverified data.**
+- `void`
+- `never` - **a type that should never exist. `_exhaustiveCheck`**
+
+```js
+type T00 = unknown & null; // null
+type T01 = unknown | null; // unknown
+
+function throwError(msg: string): never {
+  throw new Error(msg); // The value cannot be returned here.
+}
+
+```
+
+## What is `tuple`:
+
+```js
+// tuple with number and string
+let person: [number, string];
+person = [25, "Max"]; // ✅
+person = ["Max", 25]; // ❌ error
+
+
+let arr: number[] = [1, 2, 3]; // any length
+let tuple: [number, string] = [1, "Max"]; // strictly 2 elems: number + string
+
+```
+
+## Type vs Interface:
+
+### Type:
+
+- `extends` - **type cannot be extended but we can use intersection: `&`**
+- combines any types: `objects`, `primitives`, `union`, `tuple`
+
+### Interface:
+
+- ✅ You can declare an `interface` with the same name and TS will merge the properties
+- Only `objects` and `classes` can be merged
+- `extends` inherits the `properties` of the interface
+
+## Modifiers:
+
+- `readonly` - **cant change**
+- `public` - **all public by default**
+- `private` - **just for itself (no access from extended class)**
+- `protected` - **for itself + subclas**
+- `abstract` - **cant create an instance, derived class should implement methods**
+- `static` - **Removes prop from `this`, visible on the class itself but not in instances**
+
+## Utility keywords:
+
+- `keyof`
+- `typeof`
+- `instanceof` - **checks `x instanceof Date`**
+- `in` - **checks `prop in obj`**
+- `extends`
+- `as` - **convert a type, `as unknown as User`**
+- `is` - **type predicate, `param is Type` returns boolean**
+- `satisfies` - **checks if obj satisfies the type**
+
+```ts
+// is keyword
+type Fish = {
+  swim: () => void;
+};
+
+type Bird = {
+  fly: () => void;
+};
+
+function isFish(pet: Fish | Bird): pet is Fish {
+  return 'swim' in pet && typeof 'swim' === 'function';
+}
+
+if (isFish(pet)) {
+  pet.swim();
+} else {
+  pet.fly();
+}
+// If true → consider pet as a Fish If false → consider pet as a Bird
+
+// satisfies
+
+type User = {
+  name: string;
+  age: number;
+};
+
+const user = {
+  name: 'Max',
+  age: 30,
+  role: 'admin',
+} satisfies User;
+
+// ✔ Checks that name and age are present
+// ✔ Doesn't "narrow" the type to User
+// ✔ Leaves the role available
+
+// infer
+```
+
+## Function words for types:
+
+- `implements` - **implements `type/interface` structure when we create a `class`**
+- `declare` - **to declare that something exists, to let TS know the type.**
+- `namespace` - **It's a way to logically group code (types, functions, constants) under a single name**
+- `module` - `declare module` in TS does not create a real JS module, it is for `types`
+
+### `declare` and `declare module`:
+
+- The main goal is to give TypeScript type information for something that actually exists at runtime, but TS does not generate code.
+- Usually they are written in files with the extension `.d.ts` — “`type declaration files`”.
+
+```js
+// globals.d.ts
+declare const API_KEY: string;
+
+declare module "fastify" {
+  interface FastifyInstance {
+    myCustomPlugin(): void;
+  }
+}
+
+// namespace
+
+namespace MyNamespace {
+  export const PI = 3.14;
+
+  export function greet(name: string) {
+    console.log(`Hello, ${name}`);
+  }
+
+  export interface Person {
+    name: string;
+    age: number;
+  }
+}
+
+// usage
+console.log(MyNamespace.PI); // 3.14
+MyNamespace.greet("Max"); // Hello, Max
+
+const p: MyNamespace.Person = { name: "Max", age: 25 };
+
+```
+
+## Special operator types:
+
+```ts
+Partial<T>;
+Required<T>;
+ReturnType<T>;
+Readonly<T>;
+Record<K, T>;
+Pick<T, K>;
+Omit<T, K>;
+Exclude<T, U>;
+Extract<T, U>;
+```
+
+## `as const` - kind of `enum`, converts values ​​to literal types.
+
+- with `as const` TS fixes the specific value ("max", 123, true) and makes all properties readonly.
+
+```js
+
+const colors = ['red', 'green', 'blue'];
+
+type Color = typeof colors[number];
+
+// Color = string[]
+
+const colors = ['red', 'green', 'blue'] as const;
+
+type Color = typeof colors[number];
+// Color = "red" | "green" | "blue"
+
+------------------------------------------
+
+const Direction = {
+  Up: "UP",
+  Down: "DOWN",
+  Left: "LEFT",
+  Right: "RIGHT",
+} as const;
+
+type DirectionType = typeof Direction[keyof typeof Direction];
+
+// DirectionType = "UP" | "DOWN" | "LEFT" | "RIGHT"
+
+```
+
+## Generics
+
+- `extends` - limiting what types can be added
+
+```js
+
+// arrow syntax
+const firstElement = <T>(arr: T[]): T => {
+  return arr[0];
+};
+
+// types with generics
+type Box<T> = { value: T };
+const numberBox: Box<number> = { value: 123 };
+
+// generics in classes
+class DataStore<T> {
+	private data: T[] = [];
+}
+
+const store = new DataStore<number>();
+
+// extends inside generics is a constraint
+
+function getLength<T extends { length: number }>(arg: T): number {
+  return arg.length;
+}
+
+getLength([1, 2, 3]); // ✅ 3
+getLength("hello");   // ✅ 5
+getLength(123);       // ❌ error, number does not have length prop
+
+-----------------------------------------------------------------
+
+function processValue<T extends string | number>(value: T) {
+	console.log(value);
+}
+
+processValue("text"); // ✅
+processValue(123);    // ✅
+processValue(true);   // ❌ err, boolean is not part of union
+
+-----------------------------------------------------------------
+
+interface Person {
+  name: string;
+  age: number;
+}
+
+function greetPerson<T extends Person>(person: T) {
+  console.log(`Hello, ${person.name}`);
+}
+
+greetPerson({ name: "Max", age: 25 }); // ✅
+greetPerson({ name: "Max" });          // ❌ no age
+
+
+```
+
+## Infer
