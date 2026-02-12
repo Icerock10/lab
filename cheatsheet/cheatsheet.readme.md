@@ -918,7 +918,7 @@ const { length, [length - 1]: last } = [1, 2, 3, 4, 5, 6]; // get last element
 class App extends Component<PropsType, AppType> {
   // mounting
   constructor(props: object) { -> 1
-    super(props); // initiate the parent's constructor method
+    super(props); // initiate the parent's constructor method and this
     this.state = {
       // inheriting methods from its parent (React.Component).
       count: 0,
@@ -927,7 +927,7 @@ class App extends Component<PropsType, AppType> {
   }
   static getDerivedStateFromProps(props, state) { -> 2
     // called right before rendering the element(s) in the DOM + also at updates
-    // returns an object with changes to the state
+    // returns an object to update the state
     return { favoritecolor: props.favcol };
   }
 
@@ -972,6 +972,27 @@ class App extends Component<PropsType, AppType> {
     );
   }
 }
+```
+
+### Hooks equivalent:
+
+```js
+// after repaint
+useEffect(() => {
+  // componentDidMount + componentDidUpdate
+
+  return () => {
+    // componentWillUnmount
+  };
+}, [deps]);
+
+React.memo && useCallback(); // shouldComponentUpdate()
+
+// before repaint
+useLayoutEffect(() => {
+  // Get data from the DOM before it is updated (e.g. scroll position)
+  // getSnapshotBeforeUpdate();
+}, []);
 ```
 
 # TS
