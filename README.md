@@ -8,7 +8,6 @@
 ```
   main/
   ├── algorithms/
-  ├── html/css/
   ├── js-core
   ├── react
   ├── typescript
