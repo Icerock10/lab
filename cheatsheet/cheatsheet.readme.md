@@ -918,6 +918,558 @@ const { length, [length - 1]: last } = [1, 2, 3, 4, 5, 6]; // get last element
 class App extends Component<PropsType, AppType> {
   // mounting
   constructor(props: object) { -> 1
+    super(props); // initiate the parent's constructor method
+    this.state = {
+      // inheriting methods from its parent (React.Component).
+      count: 0,
+      users: [],
+    };
+  }
+  static getDerivedStateFromProps(props, state) { -> 2
+    // called right before rendering the element(s) in the DOM + also at updates
+    // returns an object with changes to the state
+    return { favoritecolor: props.favcol };
+  }
+
+  componentDidMount() { -> 4
+    setTimeout(() => {
+      // called after the component is rendered.
+      this.setState({ favoritecolor: 'yellow' });
+    }, 1000);
+  }
+
+  // updating
+
+  shouldComponentUpdate() {
+    // Stops the component from rendering at any update
+    return false; // true by default
+  }
+
+  getSnapshotBeforeUpdate(prevProps, prevState) {
+    //  find out what the state object looked like before the
+    document.getElementById('div1').innerHTML = prevState.favoritecolor; // update, kinda prev state
+  }
+
+  componentDidUpdate() {
+    // Perform actions after the component has been updated
+    document.getElementById('div2').innerHTML =
+      'The updated favorite is ' + this.state.favoritecolor;
+  }
+
+  // unmounting
+  componentWillUnmount() {
+    // this will be the last lifecycle
+    clearTimeout(this.timer); // clear timer
+  }
+
+  render() { -> 3
+    return (
+      // rendering the DOM, calls on mount and on update
+      <>
+        <div>Hi Im app</div>
+        <button onClick={this.sortByAge.bind(this)}>Bind</button> {/* bind() to bind context */}
+      </>
+    );
+  }
+}
+```
+
+## Props vs State
+
+- `props`: readonly, comes from parent
+- `state`: internal data of the component, changed with `setState`/`useState`
+
+## `PureComponent`(for class) and `React.memo` (FC) **(prevent unnecessary rerenders)**
+
+- Make a `shallow comparison` of `props`/`state`. If the data has not changed by the `reference` → there is no rerendering.
+
+## `key` in lists, why
+
+- Needed to uniquely identify list items.
+- Helps React update the DOM correctly (diffing).
+
+## The difference between `functional` and `class` components
+
+- `functional` components: `hooks`, less code
+- `class` components: `this`, `lifecycle` methods
+
+## Prop drilling and how to avoid it (passing props down through many levels)
+
+- Solution: `Context` API, `Redux`, `Zustand`
+
+## The difference between `shallow` and `deep` comparison
+
+- `Shallow` - comparison only at the top level (by ref). React uses `shallow` (fast)
+
+```js
+{a:1} !== {a:1}
+```
+
+- `Deep` - recursive comparison of all nested fields.
+
+## Performance Optimization (What Slows Down React):
+
+**Unnecessary re-renders:**
+
+- Poorly managed useEffect dependencies causing extra renders.
+- Parent re-renders → children re-render.
+- Expensive calculations inside render
+- Using index as key in dynamic lists → DOM mismatches
+
+How to boost perfomance:
+
+- Code splitting: `React.lazy` + `Suspense` to reduce initial bundle size.
+- `React.memo`, `useMemo()`, `useCallback()`
+- correct `useEffect()` and `key` in lists usage
+
+## Memoization:
+
+**`Memoization` is an `optimization` technique to avoid unnecessary re-renders by caching the result of a function or component based on its inputs (props or parameters). In React, it ensures that if inputs haven't changed, the function/component doesn't recompute or rerender.**
+
+## Batching updates:
+
+**`Batching` is a performance optimization technique that `groups` `multiple state updates` inside event handlers, promises, or timeouts into a single re-render, rather than rendering after every individual `setState` call. Since `React 18`, this occurs `automatically`**
+
+## Stateless vs Stateful:
+
+- `Stateful` - A component that stores its own `state` or uses side effects (useState, useReducer, useEffect)
+- `Stateless` - A pure component that only accepts props and renders UI.
+
+## `HOC`: This is a function that takes a component and returns a new component with additional functionality.
+
+```js
+const withLogger = (Component) => {
+  return function Enhanced(props) {
+    console.log('Rendering', Component.name);
+    return <Component {...props} />;
+  };
+};
+
+const withCounter = (Component) => (props) => {
+  const [count, setCount] = React.useState(0);
+  return <Component count={count} setCount={setCount} {...props} />;
+};
+```
+
+## Hooks:
+
+### `useState()` - State updates are `async`.
+
+- `batching` - Multiple `setState` calls in one tick → 1 render (React 18).
+
+```js
+setCount(count + 1);
+setCount(count + 1);
+// Result: +1, not +2 (both use same stale value).
+setCount((c) => c + 1); // 1
+setCount((c) => c + 1); // 2
+
+// Functional update form — when it’s required
+// Use it when next state depends on previous:
+setState((prev) => prev + 1);
+
+// Object/array updates are NOT merged
+setUser({ name: 'Max' }); // -> This replaces the whole object.
+setUser((prev) => ({ ...prev, name: 'Max' })); // -> Correct way
+// React re-renders if reference changes:
+setItems([...items]); // new reference → re-render
+
+// Resetting state on key change
+
+<Profile key={userId} userId={userId} />;
+
+// When userId changes: React destroys the old Profile, Creates a new one
+// text state becomes '' again for each new userId
+
+function Profile({ userId }) {
+  const [text, setText] = useState('');
+
+  return <input value={text} onChange={(e) => setText(e.target.value)} />;
+}
+```
+
+### `useEffect()` - can't be `async`:
+
+**What for:**:
+
+- API calls
+- (events, sockets)
+- timers
+- work with DOM
+
+```js
+// always count = 0, useEffect() mounted 1 time, got old value
+useEffect(() => {
+  const id = setInterval(() => {
+    console.log(count);
+  }, 1000);
+
+  return () => clearInterval(id);
+}, []); // solution add dependency, or useRef()
+
+Dependencies []:
+
+useEffect(() => {
+  fetchUser(userId);
+}, [userId]); //all values ​​from the outer scope that are used inside the effect
+
+cleanup function;
+
+// when? Event listener | timer | subscription | AbortController
+// may cause memory leaks
+useEffect(() => {
+  const controller = new AbortController();
+
+  fetch(url, { signal: controller.signal });
+
+  return () => controller.abort();
+}, [url]);
+
+Strict Mode double invoke (React 18+)
+
+// mount -> cleanup -> mount: If the effect breaks → it is written incorrectly.
+
+async inside useEffect()
+
+useEffect(async () => {}); // ❌
+// effect must return a cleanup function
+// async returns a Promise
+
+bad practice
+
+useEffect(() => {
+  if (isLoggedIn) {
+    doSomething();
+  }
+}, [isLoggedIn]);
+```
+
+### `useCallback()`:
+
+**What for:**
+
+- do not trigger unnecessary effects
+
+```js
+1) Stable prop for memo components
+
+const handleClick = () => setCount((c) => c + 1); // incorrect
+const handleClick = useCallback(() => {
+  setCount((c) => c + 1);
+}, []); // correct
+
+// a new function is created
+// child always re-renders
+return <Child onClick={handleClick} />;
+
+2) When a function is in dependencies of useEffect
+// If you don't memoize, the effect will trigger every render.
+
+useEffect(() => {
+  subscribe(handler); // handler should be useCallback()
+  return () => unsubscribe(handler);
+}, [handler]);
+
+3) Lists (map) + item handlers
+
+items.map(item => (
+  <Row
+    key={item.id}
+    onClick={() => select(item.id)}
+  />
+))
+
+```
+
+### `useRef()`:
+
+What is:
+`useRef` is a mutable container that stores the value between renders and does not cause a rerender when it changes.
+
+- `ref.current` — always available
+- The change does not cause a `rerender`.
+- If you need to update the UI → `useState`
+
+```js
+A) Accessing the DOM (focus, scroll, measure)
+
+const inputRef = useRef(null);
+
+useEffect(() => {
+  inputRef.current.focus();
+}, []);
+
+B) You can store anything: timers, previous values, flags.
+
+const renderCount = useRef(0);
+
+renderCount.current += 1;
+console.log(renderCount.current); // количество рендеров
+
+C) Preserving the previous value
+function MyComponent({ value }) {
+  const prevValue = useRef();
+
+  useEffect(() => {
+    prevValue.current = value;
+  }, [value]);
+
+  console.log('prev:', prevValue.current, 'current:', value);
+
+  return <div>{value}</div>;
+}
+
+D) timers, subscriptions
+
+const intervalRef = useRef();
+
+useEffect(() => {
+  intervalRef.current = setInterval(() => {
+    console.log('tick');
+  }, 1000);
+
+  return () => clearInterval(intervalRef.current);
+}, []);
+
+
+
+```
+
+### `React.memo, useMemo()`:
+
+`React.memo`: High-level `HOC` for `memoizing` a functional component.
+
+- Re-renders the `component` only if the `props` have changed (`shallow` compare by default)
+
+```js
+const Child = React.memo(({ value }) => {
+  console.log('rendered');
+  return <div>{value}</div>;
+});
+
+const Child = React.memo(HeavyComponent);
+
+// Re-render only when item changes
+list.map((item) => <Child key={item.id} data={item} />);
+
+// Pure UI components
+// Stateless, only renders props. For example: buttons, cards, avatars
+```
+
+---
+
+`useMemo()` - calculated heavy value so it won't recalculate it on each render.
+
+```js
+// Difference from useCallback: returns a value, not a function
+
+const expensiveValue = useMemo(() => computeHeavy(data), [data]);
+// computeHeavy will only be called if data has changed.
+
+Use cases
+
+1️⃣ Expensive calculations / filtering / sorting
+
+const sortedList = useMemo(() => items.sort((a, b) => a-b), [items]);
+
+
+```
+
+### `useLayoutEffect()`: `render` → commit DOM → `useLayoutEffect` → paint
+
+- it works synchronously after all DOM changes
+
+When to:
+
+- Measuring element sizes (offsetWidth, scrollHeight)
+- Positioning/animation before display
+
+### `forwardRef()`:
+
+- `forwardRef` is a way to pass a `ref` to a functional component. It's needed when the parent wants to directly control the inner element (focus, scroll, methods).
+
+```js
+function Parent() {
+  const inputRef = useRef();
+
+  const focusInput = () => inputRef.current.focus();
+
+  return (
+    <>
+      <Input ref={inputRef} />
+      <button onClick={focusInput}>Focus</button>
+    </>
+  );
+}
+
+const Input = forwardRef((props, ref) => {
+  return <input ref={ref} {...props} />;
+});
+```
+
+### `Context API`:
+
+```js
+import { type FC, createContext, useState, useContext, useCallback } from 'react';
+
+type ThemeContextType = {
+  theme: 'light' | 'dark';
+  toggleTheme: () => void;
+};
+
+const ThemeContext = createContext<ThemeContextType | null>(null);
+
+function Child() {
+  const context = useContext(ThemeContext);
+  if (!context) return null;
+
+  const { theme, toggleTheme } = context;
+  return (
+    <>
+      <div>
+        The theme is: <h1>{theme}</h1>
+      </div>
+      <button onClick={toggleTheme}>Switch</button>
+    </>
+  );
+}
+
+export const App: FC = () => {
+  const [theme, setTheme] = useState<ThemeContextType['theme']>('light');
+  const toggleTheme = useCallback(() => {
+    setTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
+  }, []);
+
+  return (
+    <ThemeContext value={{ theme, toggleTheme }}>
+      <div>
+        <Child />
+      </div>
+    </ThemeContext>
+  );
+};
+```
+
+### `useDebugValue`:
+
+- `useDebugValue` is a visual debugging tool for hooks in DevTools. It is not rendered in the UI.
+- works only in custom `hooks`!!!
+
+### `useReducer()`:
+
+- Basic usage with `reducer`, `actions`, `state`, `dispatch`
+
+```js
+const [state, dispatch] = useReducer(reducer, initialArg, init?)
+
+import { type FC, useReducer } from 'react';
+
+type Action = {
+  type: string;
+};
+
+const reducer = (state: { age: number } | undefined, action: Action) => {
+  if (action.type === 'inc' && state != null) {
+    return {
+      ...state,
+      age: state.age + 1,
+    };
+  }
+};
+
+export const App: FC = () => {
+  const [state, dispatch] = useReducer(reducer, { age: 42 });
+
+  const handleClick = () => dispatch({ type: 'inc' });
+
+  return (
+    <>
+      <div>
+        {state?.age}
+        <button onClick={handleClick}>Increment age</button>
+      </div>
+    </>
+  );
+};
+
+```
+
+- shorthand:
+
+```js
+const [flag, toggleFlag] = useReducer((v) => !v, false);
+
+return (
+  <>
+    <div>
+      {flag}
+      <button onClick={toggleFlag}>Increment age</button>
+    </div>
+  </>
+);
+```
+
+## `Suspense`, `lazy`:
+
+```js
+import { Suspense, lazy } from 'react';
+import { ErrorBoundary } from './error-boundary/error-boundary.tsx';
+
+const LazySettings = lazy(() => import('./Settings'));
+
+export const App = () => {
+  return (
+    <div>
+      <ErrorBoundary>
+        <Suspense fallback={<div>Loading Dashboard...</div>}>
+          <LazySettings />
+        </Suspense>
+      </ErrorBoundary>
+    </div>
+  );
+};
+```
+
+
+## What is virtual DOM and how it works:
+
+**It's a JavaScript object that mirrors the structure of the actual DOM tree.**
+**How it works:**
+
+- React creates a `Virtual DOM tree`, when `state` or `props` change - it creates `new Virtual DOM tree`.
+- React compares (`diffs`) and `updates` only specific parts in the `real DOM`.
+  It boosts perfomance - update Real DOM is `slow` and `expensive`.
+
+## Controlled component vs Uncontrolled:
+
+- `Controlled` - `react` controls the component state, `react` is the single source of truth
+- `Uncontrolled` - DOM itself controls the component state, accessing value directly from the `DOM` using a `ref` when needed
+
+## Component lifecycle:
+
+### Mounting:
+
+1. `constructor()`
+2. `getDerivedStateFromProps()`
+3. `render()`
+4. `componentDidMount()`
+
+### Updating:
+
+1. `getDerivedStateFromProps()`
+2. `shouldComponentUpdate()`
+3. `render()`
+4. `getSnapshotBeforeUpdate()`
+5. `componentDidUpdate()`
+
+### Unmounting:
+
+`componentWillUnmount()`
+
+```js
+class App extends Component<PropsType, AppType> {
+  // mounting
+  constructor(props: object) { -> 1
     super(props); // initiate the parent's constructor method and this
     this.state = {
       // inheriting methods from its parent (React.Component).
