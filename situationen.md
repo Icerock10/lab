@@ -15,7 +15,7 @@
 ## 📁 Angebot
 
 - ein Angebot `für` etwas `unterbreiten (nur Käufer) | ein-holen (nur Kunde) | annehmen | ablehnen`
-- einen Preisnachlass, der Rabatt `auf` etwas | die Garantie `gewähren (предоставлять) | anbieten`
+- einen Preisnachlass, der Rabatt `auf` etwas | die Garantie `gewähren (предоставлять) | anbieten | verlängern`
 - das Preis-Leistungs-Verhältnis `vergleichen | bewerten | passen | haben` *(соотношение цена-качество)*
 - die Maße (Höhe, Breite, Tiefe) `angeben (сообщить о Maße) | mit dem Meterstab ausmessen`
 - den angegebenen Maßen `entsprechen`
@@ -84,7 +84,7 @@
 3. eine Ausbildung `machen zu` + D *(обучаться на кого-то, напр. zum Elektriker)* | `abschließen`
 4. eine Tätigkeit `ausüben | erlernen` *(осуществлять деятельность — уже сам рабочий процесс)*
 - Deutschkenntnisse `durch etwas erwerben` *(приобретать знания — через учёбу/курс)*
-- Deutschkenntnisse `nachweisen` *(подтверждать документально — сертификатом)*
+- Fachkenntnisse/Deutschkenntnisse `nachweisen (подтверждать) | vertiefen`
 - einen Berufsabschluss, Zeugnis/Diplom `anerkennen lassen`
 - eine Übersetzung `anfertigen lassen`
 
@@ -133,6 +133,7 @@
 
 1. eine Störung `auftreten -> melden -> beheben lassen` *(возникает)*
 2. die Ursache `feststellen` *(установить причину)*
+3. Fehlern/Störungen `vorbeugen + Dativ` *(предотвращать, предупреждать)* - **Durch regelmäßige Wartung**
 
 — Software:
 - ein Programm `installieren | deinstallieren | konfigurieren, einrichten | aktualisieren` *(установить с нуля)*
