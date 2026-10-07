@@ -147,3 +147,5 @@
 - `leisten` *(совершать/выполнять — ценой усилия)*
   → gute Arbeit leisten, Überstunden leisten, einen Beitrag leisten, Hilfe leisten
 - einen Termin/eine Regel/einen Preis `festlegen` *(установить, решить на будущее)*
+- `ich gehe davon aus, dass` **(я исхожу из того, что..." / "я предполагаю, что...)**
+- `sich anfühlen (ощущаться)` - *Es fühlt sich komisch an, nach so langer Zeit zurückzukommen.*
