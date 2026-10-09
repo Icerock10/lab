@@ -1,7 +1,7 @@
 ## 📁 Beschwerde
 
 - sich `beschweren über + Akk`
-- die Ware `reklamieren`
+- die Ware `reklamieren | verzichten`
 - eine Frist `setzen` *(устанавливать срок)*
 - einen Mangel, Schaden `feststellen | melden`
 - der Ersatz | Entschädigung, der Ausgleich `fordern | verlangen`
@@ -90,7 +90,7 @@
 
 ## 📁 Bewerbungsunterlagen, das Dokument (die Urkunde)
 
-1. die Unterlagen `vorbereiten -> einreichen | zusenden`
+1. die Unterlagen `vorbereiten -> einreichen | zusenden | vorweisen`
 2. die Unterlagen `sind bei uns eingegangen` *(уже у получателя)*
 3. die Unterlagen `durchgehen | prüfen | nachsehen (посмотреть)` *(у получателя)*
 
@@ -149,3 +149,4 @@
 - einen Termin/eine Regel/einen Preis `festlegen` *(установить, решить на будущее)*
 - `ich gehe davon aus, dass` **(я исхожу из того, что..." / "я предполагаю, что...)**
 - `sich anfühlen (ощущаться)` - *Es fühlt sich komisch an, nach so langer Zeit zurückzukommen.*
+-  das Interesse `wecken für + Akk`
