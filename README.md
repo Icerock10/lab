@@ -1,128 +1,152 @@
-# Redemittel für den Forumsbeitrag (B2 Beruf) 
+## 📁 Beschwerde
 
-## 📍 Einleitung
- 
-> Wie steigt man ins Thema ein?
- 
-- Neulich habe ich herausgefunden, dass `[Thema]`.
-- In letzter Zeit wird viel darüber gesprochen, dass `[Thema]`. Deswegen möchte ich kurz meine Gedanken dazu zum Ausdruck bringen.
----
- 
-## 💬 Eigene Meinung
- 
-> Wie formuliert man die eigene Position?
- 
-- Das scheint mir eine **tolle / schlechte** Idee zu sein.
-- Ich bin der Auffassung, dass ...
-- Es ist auch entscheidend, `zu + Infinitiv` ...
-- Zwar ..., aber ...
-- Es wäre besser, wenn ... `würde + Infinitiv`
-- Ich gehe davon aus, dass ...
-- Ich habe selbst erlebt, dass ...
-### 🗂️ Mögliche Argumentationsbereiche
- 
-Je nach Thema lässt sich die Meinung mit Bezug auf folgende Bereiche stützen:
- 
-| Bereich | Stichwort |
-|---|---|
-| 💰 | Zeit / Geld |
-| 🏥 | Gesundheit |
-| 🤝 | Soziales |
-| 🏛️ | Gesellschaft |
-| 🌱 | Umwelt |
-| 🤖 | Zukunft / Technik |
-| 🙋 | Ich persönlich |
- 
----
- 
-## 🏁 Schluss
- 
-> Wie rundet man den Beitrag ab?
- 
-- Zusammenfassend lässt sich sagen, dass ...
-- Ich bin davon überzeugt, dass ...
-- Ich bin gespannt auf eure Meinungen.
----
- 
-## 📐 Grundstruktur auf einen Blick
- 
-```markdown
-1. Einleitung      → Thema einführen
-2. Eigene Meinung  → Position + Argumente (2–3 Bereiche)
-3. Schluss         → Zusammenfassung + Ausblick
-```
+- sich `beschweren über + Akk`
+- die Ware `reklamieren | verzichten`
+- eine Frist `setzen` *(устанавливать срок)*
+- einen Mangel, Schaden `feststellen | melden`
+- der Ersatz | Entschädigung, der Ausgleich `fordern | verlangen`
+- einen Gutschein *(ваучер на след покупку)* `ausstellen (выписать) | anbieten`
+- eine Gutschrift *(зачисление на счёт)* `erteilen (предоставлять)` | den Betrag *(сумма)* `gutschreiben` *(зачислить как компенсацию)*
+- vom Kauf/Vertrag `zurücktreten` *(расторгнуть сделку)*
+- keinen Mehrwert mehr `haben | bieten | bringen` *(больше не приносит пользы)*
+- sich `wenden an` + Akk. *(обращаться к кому-то — я сам инициирую)*
+- jemanden `verweisen an` + Akk. *(направлять/отсылать)
 
+## 📁 Angebot
 
-# 📧 Redemittel für die E-Mail (B2 Beruf)
- 
-## 1️⃣ Anrede
- 
-- Sehr geehrte Damen und Herren, *(unbekannter Empfänger)*
-- Sehr geehrter Herr `[Name]`, / Sehr geehrte Frau `[Name]`,
-- Liebe/r `[Name]`, *(bereits bekannter Kontakt, weniger formell)*
----
- 
-## 2️⃣ Einleitung — Bezug nehmen
- 
-> Womit steigt man ein?
- 
-- bezugnehmend auf Ihre Anfrage vom `[Datum]` ...
-- Es ist bedauerlich, Ihnen mitteilen zu müssen, dass ... *(negative Nachricht)*
-- vielen Dank für Ihre E-Mail / Ihr Interesse an ...
-- ich schreibe Ihnen bezüglich ...
----
- 
-## 3️⃣ Hauptteil — je nach Zweck
- 
-### ✅ Bestätigen
-- hiermit bestätige ich, dass ...
-- wir bestätigen den Eingang Ihrer Unterlagen.
-- wie besprochen, bestätige ich Ihnen hiermit `[Termin/Bestellung]`.
-### ❓ Anfragen
-- ich wollte mich danach erkundigen, ob ...
-- könnten Sie mir bitte mitteilen, ob/wann/wie ...
-- wir würden uns freuen, wenn Sie uns mitteilen könnten, ...
-### 📎 Anhänge / Unterlagen
-- anbei sende ich Ihnen `[Dokument]`.
-- im Anhang finden Sie `[Dokument]`.
-- die vollständigen Unterlagen füge ich diesem Schreiben bei.
-### ⚠️ Beschweren / Reklamieren
-- leider muss ich mich über `[Problem]` beschweren.
-- bei der Lieferung ist uns aufgefallen, dass ...
-- wir bitten Sie, den Mangel innerhalb von `[Frist]` zu beheben.
-### 📅 Termin vereinbaren / ändern
-- ich schlage vor, den Termin auf `[Datum]` zu verlegen.
-- leider muss ich den Termin vom `[Datum]` absagen.
-### 🙏 Bitten / Vorschlagen
-- ich wäre Ihnen sehr dankbar, wenn ...
-- dürfte ich Sie darum bitten, ...?
-- ich schlage vor, dass ...
----
- 
-## 4️⃣ Schluss
- 
-- Für Rückfragen stehe ich Ihnen gerne zur Verfügung.
-- Bei weiteren Fragen können Sie sich jederzeit an mich wenden.
-- Ich freue mich auf Ihre Rückmeldung / Antwort.
-- Vielen Dank im Voraus für Ihre Bemühungen.
----
- 
-## 5️⃣ Grußformel
- 
-- Mit freundlichen Grüßen
----
- 
-## 📐 Beispiel-E-Mail (korrigiert & ergänzt)
- 
-```text
-Sehr geehrte Damen und Herren,
- 
-bezugnehmend auf Ihre Anfrage vom 03.10. bestätige ich hiermit den
-vereinbarten Liefertermin für den 15.10.
- 
-Für Rückfragen stehe ich Ihnen gerne zur Verfügung.
- 
-Mit freundlichen Grüßen
-Maksym
-```
+- ein Angebot `für` etwas `unterbreiten (nur Verkäufer) | ein-holen (nur Kunde) | annehmen | ablehnen`
+- einen Preisnachlass, der Rabatt `auf` etwas | die Garantie `gewähren (предоставлять) | anbieten | verlängern`
+- das Preis-Leistungs-Verhältnis `vergleichen | bewerten | passen | haben` *(соотношение цена-качество)*
+- die Maße (Höhe, Breite, Tiefe) `angeben (сообщить о Maße) | mit dem Meterstab ausmessen`
+- den angegebenen Maßen `entsprechen`
 
+## 📁 Lieferung
+
+- `sich verzögern` | *verzögerte, verspätete | fehlende (отсутствующий) | fehlerhafte (дефектный, с ошибками)* Lieferung
+- Ware, Lieferung `eintreffen (прибывать) | liefern | zurücksenden`
+- die Warenannahme/den Empfang `bestätigen` *(подтвердить получение)*
+- die Ware mit dem Lieferschein `vergleichen | abgleichen` *(сравнить с накладной/бланком заказа)*
+- die Ware `ist in einwandfreiem Zustand` *(безупречное состояние — нет Mangel/Schaden)*
+
+## 📁 Bestellung | Auftrag
+
+- die Bestellung, der Auftrag `aufgeben, bestellen (Kunde) | aufnehmen (Verkäufer) | stornieren | bestätigen | bearbeiten`
+- die Bestellung/den Auftrag `abwickeln über Online-Portal` *(обрабатывать/проводить)*
+
+## 📁 Termin
+
+- einen Termin `vereinbaren | verschieben , verlegen | absagen | einhalten`
+- an einem Termin `verhindert sein` *(не иметь возможности прийти)*
+- den Termin `wahr-nehmen` *(nutzen = прийти на встречу, воспользоваться)*
+- zum Termin `erscheinen` *(явиться)*
+
+## 📁 Teamgeist / Zwischenmenschliches
+
+- jemandem Respekt / Achtung / Wertschätzung `entgegenbringen`
+- jemandem `entgegenkommen` *(идти на уступки, помочь)*
+- der Teamgeist `stärken | fördern` *(укреплять/способствовать командному духу)*
+- ein gutes Arbeitsklima `schaffen`
+- Wissen/Erfahrungen `austauschen` *(обмениваться знаниями/опытом)*
+- ein Konflikt `entstehen | aufkommen` *(конфликт возникает)*
+- Missverständnisse `klären`
+- sachliche Kritik `üben an + Dativ`
+- eine lockere Kommunikation `herrschen` (свободное общение преобладает)
+- einen Beitrag (zu + D) `leisten` *(осуществлять вклад)* | `zu etwas beitragen`
+- über Durchhaltevermögen (Eigenschaft) `verfügen` *(обладать выносливостью/упорством)*
+- jemandem etwas `vorwerfen` *(обвинять в чём-то)*
+
+## 📁 die Messe
+
+- der Aussteller *(тот, кто показывает свою продукцию)*
+- der Veranstalter *(организатор выставки)*
+- der Messestand *(стенд)*
+- den Stoff/das Material `anfassen, berühren`
+- sich von der Qualität `überzeugen`
+
+— Handlungen:
+- eine Messe `veranstalten , organisieren` *(организовать)*
+- einen Stand `aufbauen` *(построить стенд)*
+- Produkte `präsentieren , vorstellen` *(представлять продукцию)*
+- gegen etwas `protestieren | demonstrieren`
+- die Umwelt `belasten , schädigen` *(вредить окружающей среде)*
+
+## 📁 Krankheit / Krankmeldung
+
+1. der Mitarbeiter `meldet sich krank` *(сотрудник сообщает о болезни)*
+2. der Arzt `stellt` eine Arbeitsunfähigkeitsbescheinigung (AU) `aus`
+3. der Mitarbeiter `reicht` die AU `ein` *(сдаёт справку — часто в HR/Personalabteilung)*
+- sich `krankschreiben lassen`
+
+## 📁 Ausbildung / Beruf
+
+1. in einen Beruf `reinschnuppern` *(попробовать, понюхать)*
+2. einen Beruf `ergreifen` *(выбрать профессию, начать карьерный путь — книжно)*
+3. eine Ausbildung `machen zu` + D *(обучаться на кого-то, напр. zum Elektriker)* | `abschließen`
+4. eine Tätigkeit `ausüben | erlernen` *(осуществлять деятельность — уже сам рабочий процесс)*
+- Deutschkenntnisse `durch etwas erwerben` *(приобретать знания — через учёбу/курс)*
+- Fachkenntnisse/Deutschkenntnisse `nachweisen (подтверждать) | vertiefen`
+- einen Berufsabschluss, Zeugnis/Diplom `anerkennen lassen`
+- eine Übersetzung `anfertigen lassen`
+
+## 📁 Bewerbungsunterlagen, das Dokument (die Urkunde)
+
+1. die Unterlagen `vorbereiten -> einreichen | zusenden | vorweisen`
+2. die Unterlagen `sind bei uns eingegangen` *(уже у получателя)*
+3. die Unterlagen `durchgehen | prüfen | nachsehen (посмотреть)` *(у получателя)*
+
+— Redemittel für Anschreiben:
+- **anbei** sende ich... / im Anhang finden Sie... *(прилагаю)*
+- noch ein Dokument `hinzufügen` *(добавить ещё документ)*
+
+## 📁 Arbeit / Arbeitsverhältnis
+
+— Vertrag:
+- der Arbeitsvertrag `aufsetzen (составлять договор) | kündigen | unterschreiben`
+
+- Überstunden `ausgleichen` *(выравнивать)*
+- Überstunden `abbauen (сокращать накопленные часы) | umwandeln (конвертировать во что-то)`
+- `entlassen, (gekündigt sein)`
+
+## 📁 Unternehmen / Selbstständigkeit
+
+- eine Firma `gründen, eröffnen` *(основать/открыть — разовое действие)*
+- eine Firma `betreiben, leiten, führen` *(вести/руководить — длительный процесс)*
+
+## 📁 Berufe beschreiben
+
+- ein Beruf, der viel `Verantwortung erfordert`
+- körperlich `anstrengend` *(физически тяжёлая работа)*
+- im Freien/drinnen `arbeiten` *(работать на улице/в помещении)*
+- mit den Händen `arbeiten` *(работать руками)*
+
+## 📁 Technische Probleme (Büro/Haushalt)
+
+- die Kaffeemaschine `auffüllen | entkalken`
+- einen Papierstau `haben | beheben` *(Papier ist eingeklemmt)*
+- den Strom-/Heizungsanschluss `reparieren lassen` *(отдать в ремонт)*
+- ein Gerät `aufladen` *(зарядить — от аккумулятора)*
+- den Stecker/das Kabel `reinstecken | ziehen` *(вставить/вытащить вилку)*
+- ein Gerät `an-/ausschalten` *(включить/выключить кнопкой)*
+- den Akku `austauschen | wechseln` *(заменить аккумулятор)*
+
+## 📁 Störung / Technik
+
+1. eine Störung `auftreten -> melden -> beheben lassen` *(возникает)*
+2. die Ursache `feststellen` *(установить причину)*
+3. Fehlern/Störungen `vorbeugen + Dativ` *(предотвращать, предупреждать)* - **Durch regelmäßige Wartung**
+
+— Software:
+- ein Programm `installieren | deinstallieren | konfigurieren, einrichten | aktualisieren` *(установить с нуля)*
+
+— Maschine (Produktion):
+- die Maschine `ausfallen` *(выходить из строя — непереходно)*
+- die Produktion `einstellen` *(приостанавливать производство)*
+- die Maschine `warten` *(обслуживать — die Wartung)*
+
+## 🌳Gut zu wissen
+- `leisten` *(совершать/выполнять — ценой усилия)*
+  → gute Arbeit leisten, Überstunden leisten, einen Beitrag leisten, Hilfe leisten
+- einen Termin/eine Regel/einen Preis `festlegen` *(установить, решить на будущее)*
+- `ich gehe davon aus, dass` **(я исхожу из того, что..." / "я предполагаю, что...)**
+- `sich anfühlen (ощущаться)` - *Es fühlt sich komisch an, nach so langer Zeit zurückzukommen.*
+-  das Interesse `wecken für + Akk`
