@@ -83,6 +83,27 @@ Aber das wäre nicht genug, um einen Job in Deutschland zu bekommen, weil man oh
 Man könnte im Internet recherchieren, um sich darüber zu informieren. Es ist auch wichtig, die Übersetzung des Abschlusses anfertigen zu lassen und Deutschkenntnisse nachzuweisen. Nachdem diese Voraussetzungen erfüllt worden sind, hat man bessere Chancen bei der Jobsuche.
  
 ---
+## 4. Berufliches Vorbild
+ 
+> **Aufgabe:** Beschreiben Sie eine Person aus Ihrem Umfeld, die für Sie ein berufliches Vorbild ist (z. B. Beziehung zu dieser Person, Eigenschaften, Einfluss auf Sie).
+ 
+### 🔑 Stichpunkte
+ 
+- Person vorstellen → Michael, Mitarbeiter und Schichtleiter, *zusammen mit mir gearbeitet*
+- Eigenschaften: locker, ausgezeichnete Arbeit, delegieren, aber viel selbst erledigt
+- Selbstvertrauen, Durchhaltevermögen → Schicht durchziehen (trotz Unlust oder Krankheit)
+- Laune beeinflusst andere nicht, weiß immer mehr als die anderen
+- Einfluss auf mich: Erfahrungen, Fachkenntnisse vertiefen → Arbeitsabläufe, Maschinen bedienen, Kunden beraten (Wertschätzung)
+- Jetzt: bedauerlich, in andere Filiale versetzt → *Ich wünsche mir einen ähnlichen Schichtleiter*
+### 📝 Mustertext
+ 
+Ich möchte Ihnen eine Person beschreiben, die mich bei der Arbeit sehr beeinflusst hat. Es geht um meinen Mitarbeiter Michael, der zusammen mit mir gearbeitet hat. Er war immer eine lockere Person, die immer ausgezeichnete Arbeit geleistet hat. Er war Schichtleiter, der alle Aufgaben delegieren konnte, aber er hat viel zu viel selbst erledigt, ohne Hilfe zu benötigen. Er verfügte über Eigenschaften wie z. B. Selbstvertrauen und Durchhaltevermögen, er konnte nämlich die Schicht durchziehen, obwohl er keine Lust hatte oder krank war. Ich war immer davon begeistert, dass seine Laune die anderen Mitarbeiter nicht beeinflusst hat. Wenn ich mich für etwas interessierte, wusste er immer mehr als die anderen. Ich habe wirklich nützliche Erfahrungen sammeln können und konnte meine Fachkenntnisse durch seine Erklärungen vertiefen. Jetzt kenne ich mich mit den Arbeitsabläufen gut aus, ich weiß, wie man die Maschinen bedient und die Kunden richtig berät, um ihnen Wertschätzung entgegenzubringen.
+ 
+Es ist bedauerlich, dass er nicht mehr in der Filiale ist. Und ich gehe davon aus, dass ich besser hätte arbeiten können, wenn er nicht in eine andere Filiale versetzt worden wäre.
+ 
+Trotzdem habe ich eine schöne Zeit bei der Arbeit gehabt, und ich wünsche mir in der Zukunft einen ähnlichen Schichtleiter.
+ 
+---
  
 ## 💡 Nützliche Redemittel (aus den Texten)
  
