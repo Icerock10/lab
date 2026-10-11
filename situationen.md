@@ -14,7 +14,7 @@
 
 ## 📁 Angebot
 
-- ein Angebot `für` etwas `unterbreiten (nur Käufer) | ein-holen (nur Kunde) | annehmen | ablehnen`
+- ein Angebot `für` etwas `unterbreiten (nur Verkäufer) | ein-holen (nur Kunde) | annehmen | ablehnen`
 - einen Preisnachlass, der Rabatt `auf` etwas | die Garantie `gewähren (предоставлять) | anbieten | verlängern`
 - das Preis-Leistungs-Verhältnis `vergleichen | bewerten | passen | haben` *(соотношение цена-качество)*
 - die Maße (Höhe, Breite, Tiefe) `angeben (сообщить о Maße) | mit dem Meterstab ausmessen`
