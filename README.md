@@ -28,6 +28,7 @@
 - die Warenannahme/den Empfang `bestätigen` *(подтвердить получение)*
 - die Ware mit dem Lieferschein `vergleichen | abgleichen` *(сравнить с накладной/бланком заказа)*
 - die Ware `ist in einwandfreiem Zustand` *(безупречное состояние — нет Mangel/Schaden)*
+- der `Lieferengpass` `bei` + Dat. *(перебои с поставками)* = `Lieferschwierigkeiten | Lieferverzug`
 
 ## 📁 Bestellung | Auftrag
 
@@ -167,3 +168,5 @@
 - die `Zunahme` / `Abnahme` *(рост / спад)*
 - Preise / Kosten `senken` = `reduzieren` *(снижать)*, `um 10%` + Akk. / `auf 50 euros`.
 - Preise / Umsatz `sinken` (ist gesunken) *(падать)*
+- die Überlastung `überlastet | belastet | ausgelastet` *(загружен полностью)*
+- `entlastet` *(jdn entlasten: разгрузить)* → die `Entlastung`
