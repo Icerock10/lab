@@ -19,6 +19,7 @@
 - das Preis-Leistungs-Verhältnis `vergleichen | bewerten | passen | haben` *(соотношение цена-качество)*
 - die Maße (Höhe, Breite, Tiefe) `angeben (сообщить о Maße) | mit dem Meterstab ausmessen`
 - den angegebenen Maßen `entsprechen`
+- neue Kunden / Mitarbeiter / Fachkräfte `gewinnen` **(привлечь клиентов)**, Gewinn `machen` **(получать прибыль)**
 
 ## 📁 Lieferung
 
@@ -87,6 +88,7 @@
 - Fachkenntnisse/Deutschkenntnisse `nachweisen (подтверждать) | vertiefen`
 - einen Berufsabschluss, Zeugnis/Diplom `anerkennen lassen`
 - eine Übersetzung `anfertigen lassen`
+- ein Geschäft / eine Firma `betreiben` **(вести деятельность, осуществлять)**
 
 ## 📁 Bewerbungsunterlagen, das Dokument (die Urkunde)
 
@@ -131,7 +133,7 @@
 
 ## 📁 Störung / Technik
 
-1. eine Störung `auftreten -> melden -> beheben lassen` *(возникает)*
+1. eine Störung, das Problem `auftreten (возникает) -> melden -> beheben | beseitigen lassen` 
 2. die Ursache `feststellen` *(установить причину)*
 3. Fehlern/Störungen `vorbeugen + Dativ` *(предотвращать, предупреждать)* - **Durch regelmäßige Wartung**
 
@@ -150,3 +152,18 @@
 - `ich gehe davon aus, dass` **(я исхожу из того, что..." / "я предполагаю, что...)**
 - `sich anfühlen (ощущаться)` - *Es fühlt sich komisch an, nach so langer Zeit zurückzukommen.*
 -  das Interesse `wecken für + Akk`
+-  Einsatz, `einsetzen von/in + D` **(применение, использование)**
+-  die Werbemaßnahmen (*= Werbung)
+-  `begutachten | einschätzen  (*= bewerten)`
+-  `zugunsten` **в пользу чего-то**
+-  Punkt **(точка, место, баллы)**
+-  der Auftritt (die Präsenz) **(выступление, появление)** | Online-Auftritt **(присутствие в интернете, сайт, аккаунты в соц-сетях)**
+-  etwas `Öffentlichkeit vorstellen` (*= Außenpräsentation) - **(на публике, публично)**
+-  etw. in einem guten Licht `darstellen` - **(представлять, изображать)**
+-  `sich anpassen` - (*= `adaptieren`)
+-  jdn (mit)`einbeziehen` ≈ jdn `beteiligen | mitmachen` *(вовлекать, приобщить)*
+- das `Nahrungsmittel` = das `Lebensmittel` *(продукт питания)*
+- die `Ernährung` *(питание как система)*: sich gesund `ernähren`
+- die `Zunahme` / `Abnahme` *(рост / спад)*
+- Preise / Kosten `senken` = `reduzieren` *(снижать)*, `um 10%` + Akk. / `auf 50 euros`.
+- Preise / Umsatz `sinken` (ist gesunken) *(падать)*
