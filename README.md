@@ -4,7 +4,7 @@
 - die Ware `reklamieren | verzichten`
 - eine Frist `setzen` *(устанавливать срок)*
 - einen Mangel, Schaden `feststellen | melden`
-- der Ersatz | Entschädigung | Wiedergutmachung, der Ausgleich `fordern | verlangen`
+- der Ersatz | Entschädigung | Wiedergutmachung, der Ausgleich `fordern | verlangen um ein Jahr`
 - einen Gutschein *(ваучер на след покупку)* `ausstellen (выписать) | anbieten`
 - eine Gutschrift *(зачисление на счёт)* `erteilen (предоставлять)` | den Betrag *(сумма)* `gutschreiben` *(зачислить как компенсацию)*
 - vom Kauf/Vertrag `zurücktreten` *(расторгнуть сделку)*
