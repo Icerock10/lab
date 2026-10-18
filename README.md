@@ -170,3 +170,4 @@
 - Preise / Umsatz `sinken` (ist gesunken) *(падать)*
 - die Überlastung `überlastet | belastet | ausgelastet` *(загружен полностью)*
 - `entlastet` *(jdn entlasten: разгрузить)* → die `Entlastung`
+- `ausnehmen` - **(исключать, извлекать)**
