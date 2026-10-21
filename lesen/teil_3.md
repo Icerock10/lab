@@ -51,3 +51,4 @@
 | der Freizeitausgleich | отгул вместо оплаты за переработку |
 | ausschlaggebend | решающий (= entscheidend) |
 | gestalten | оформлять, организовывать, формировать |
+| Studien belegen, Untersuchung, Forschung | исследование |
