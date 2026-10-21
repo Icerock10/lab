@@ -68,22 +68,19 @@ Je nach Thema lässt sich die Meinung mit Bezug auf folgende Bereiche stützen:
 ### ✅ Bestätigen
 - hiermit bestätige ich, dass ...
 - wir bestätigen den Eingang Ihrer Unterlagen.
-- wie besprochen, bestätige ich Ihnen hiermit `[Termin/Bestellung]`.
 ### ❓ Anfragen
 - ich wollte mich danach erkundigen, ob ...
-- könnten Sie mir bitte mitteilen, ob/wann/wie ...
 - wir würden uns freuen, wenn Sie uns mitteilen könnten, ...
+- Dürfte ich erfahren, wie etwas..
 ### 📎 Anhänge / Unterlagen
 - anbei sende ich Ihnen `[Dokument]`.
 - im Anhang finden Sie `[Dokument]`.
 - die vollständigen Unterlagen füge ich diesem Schreiben bei.
-### ⚠️ Beschweren / Reklamieren
-- leider muss ich mich über `[Problem]` beschweren.
-- bei der Lieferung ist uns aufgefallen, dass ...
-- wir bitten Sie, den Mangel innerhalb von `[Frist]` zu beheben.
+
 ### 📅 Termin vereinbaren / ändern
 - ich schlage vor, den Termin auf `[Datum]` zu verlegen.
 - leider muss ich den Termin vom `[Datum]` absagen.
+
 ### 🙏 Bitten / Vorschlagen
 - ich wäre Ihnen sehr dankbar, wenn ...
 - dürfte ich Sie darum bitten, ...?
