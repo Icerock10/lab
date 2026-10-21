@@ -42,7 +42,7 @@
 | jdn entlasten → die Entlastung | разгрузить → разгрузка |
 | ausnehmen | исключать, извлекать |
 | aufbewahren | хранить, сохранять |
-| beteiligen (an + Dat.) | привлекать к участию; sich beteiligen: участвовать |
+| `beteiligen, einbeziehen` (an + Dat.) | привлекать к участию; sich beteiligen: участвовать |
 | zur Erkenntnis gelangen | прийти к выводу, осознать (= erkennen, zu dem Schluss kommen) |
 | verhindern | предотвращать, не допускать |
 | vorbeugen (+ Dat.) | предупреждать, принимать профилактические меры |
