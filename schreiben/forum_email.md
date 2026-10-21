@@ -39,19 +39,10 @@ Je nach Thema lässt sich die Meinung mit Bezug auf folgende Bereiche stützen:
  
 > Wie rundet man den Beitrag ab?
  
-- Zusammenfassend lässt sich sagen, dass ...
+- Wenn ich es in einem Satz zusammenfassen müsste: Homeoffice ist ...
 - Ich bin davon überzeugt, dass ...
 - Ich bin gespannt auf eure Meinungen.
 ---
- 
-## 📐 Grundstruktur auf einen Blick
- 
-```markdown
-1. Einleitung      → Thema einführen
-2. Eigene Meinung  → Position + Argumente (2–3 Bereiche)
-3. Schluss         → Zusammenfassung + Ausblick
-```
-
 
 # 📧 Redemittel für die E-Mail (B2 Beruf)
  
