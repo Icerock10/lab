@@ -163,3 +163,32 @@ Trotz dieser Schwierigkeiten bereue ich meine Berufswahl nicht, weil ich viel ü
 ---
 
 ## 7. Bewerbungsgespräch
+
+> **Aufgabe:** Was ist bei einem Bewerbungsgespräch wichtig? (Formulierung der Aufgabe bitte durch die echte ersetzen)
+
+### 🔑 Stichpunkte
+
+- Vorbereitung: richtige Kleidung, sauber und gepflegt auftreten
+- Pünktlichkeit: ca. 10 Minuten vorher da sein → zeigt Interesse und Absichten
+- Selten erwähnt: Firmen fragen nach dem Unternehmen → Bewerber hat sich informiert, Stelle weckt wirklich Interesse
+- Im Gespräch: Augenkontakt halten, höflich und freundlich sein
+- Floskelhafte Fragen: vorbereiten durch Internet, Videos
+- Schwierige Frage, Antwort unbekannt → nicht "Ich habe keine Ahnung" sagen, sondern Gedanken laut machen und darüber nachdenken → Denkweise zeigen
+- Ziel: Arbeitgeber kann Gedanken nachvollziehen → entscheidet sich für mich
+- Fazit in einem Satz: Pünktlichkeit, Aussehen, Vorbereitung
+
+### 📝 Mustertext
+
+Ich stelle Ihnen dar, was beim Bewerbungsgespräch ausschlaggebend ist.
+
+Für die meisten Leute ist es selbstverständlich, nicht nur die richtige Kleidung vorzubereiten, sondern auch sauber und gepflegt aufzutreten. Außerdem ist es entscheidend, pünktlich zu sein. Man sollte idealerweise 10 Minuten vorher an Ort und Stelle erscheinen, um sein Interesse und seine Absichten dem Arbeitgeber zu zeigen.
+
+Was zu selten erwähnt wird: Die Firmen stellen in letzter Zeit Fragen über das Unternehmen, um davon überzeugt zu sein, dass der Bewerber die wichtigen Informationen zusammengefasst hat und diese Stelle sein Interesse wirklich weckt.
+
+Während des Gesprächs darf man nicht vergessen, sowohl den Augenkontakt zu halten als auch höflich und freundlich zu sein.
+
+Es gibt natürlich die floskelhaften Fragen, zu denen man sich gut vorbereiten kann, indem man entweder im Internet recherchiert oder ein paar Videos anschaut.
+
+Es kann sein, dass eine schwierige Frage gestellt wird, deren Antwort man einfach nicht weiß. Falls Sie in eine solche Situation kommen, würde ich empfehlen, nicht einfach "Ich habe keine Ahnung" zu sagen. Obwohl Sie die richtige Antwort nicht wissen, könnten Sie sich ein paar Gedanken laut machen und einfach darüber nachdenken, um Ihre Denkweise zu zeigen, damit der Arbeitgeber Ihre Gedanken nachvollziehen kann und sich dafür entscheiden könnte, Sie fest anzustellen.
+
+Wenn ich alle Tipps in einem Satz zusammenfassen müsste, würde ich sagen, dass nicht nur die Pünktlichkeit und das Aussehen, sondern auch die Vorbereitung eine wichtige Rolle spielen.
