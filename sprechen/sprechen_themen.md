@@ -9,6 +9,7 @@ Sammlung von Themen und Mustertexten für den mündlichen Teil der Prüfung **De
 3. [Bei der Arbeitssuche](#3-bei-der-arbeitssuche)
 4. [Berufliches Vorbild](#4-berufliches-vorbild)
 5. [Arbeitsumfeld](#5-arbeitsumfeld)
+6. [Berufswahl](#6-berufswahl)
 ---
  
 ## 1. Produkt beschreiben
@@ -129,3 +130,31 @@ Es gab natürlich bei der letzten Arbeit auch Vorteile, z.B ergonomische Arbeits
 Also, wenn ich mein Arbeitsumfeld in einem Satz beschreiben müsste, würde ich sagen, dass sowohl das Arbeitsklima als auch Kollegen eine große Rolle spielen.
 
 ---
+
+## 6. Berufswahl
+
+## Berufswahl
+
+> **Aufgabe:** Beschreiben Sie die Ereignisse und Erfahrungen, die Ihre Berufswahl beeinflusst haben (z. B. Stationen, wichtige Personen, Motivation, Folgen).
+
+### 🔑 Stichpunkte
+
+- Nach der Schule → Überlegung, welche Tätigkeit ich ausüben möchte
+- Entscheidung: Informationssicherheitsmanagement an der Universität → *Motivation: ganze Kindheit vor dem Computer*
+- Nach dem Abschluss: Jobsuche in diesem Bereich → leider kein Erfolg
+- Programmieren sehr gefragt → *Freunde* wecken Interesse
+- Neuorientierung → Freunde um Rat gefragt, wie man Programmieren am besten lernt
+- Empfehlung: Praktikum bei einer bekannten Firma → erfolgreich abgeschlossen
+- Krieg in der Heimat → Umzug nach Deutschland, mit anderen Dingen beschäftigt
+- Besser wäre: aus Deutschland für die ukrainische Firma arbeiten → leider nicht möglich
+- Folgen: Berufswahl nicht bereut, viel über Informatik gelernt → Jobsuche geht weiter
+
+### 📝 Mustertext
+
+Nachdem ich die Schule abgeschlossen hatte, habe ich mir ein paar Gedanken gemacht, in welchem Bereich ich arbeiten möchte. Nach langem Überlegen habe ich den Entschluss gefasst, an der Universität Informationssicherheitsmanagement zu studieren, weil ich meine ganze Kindheit vor dem Computer gesessen habe.
+
+Nachdem ich meinen Abschluss gemacht hatte, habe ich versucht, einen Job in diesem Bereich zu finden, hatte aber leider keinen Erfolg.
+
+Inzwischen ist Programmieren sehr gefragt geworden, und meine Freunde haben mir erzählt, dass diese Richtung ihr Interesse weckt und dass man es ausprobieren kann. Infolgedessen wollte ich mich beruflich neu orientieren. Ohne zu zögern habe ich mich mit meinen Freunden in Verbindung gesetzt, um mich zu erkundigen, wie man am besten Programmieren lernen kann. Mir ist mitgeteilt worden, dass man seinen Berufsweg erleichtern kann, indem man ein Praktikum bei einer bekannten Firma macht. Nachdem ich dieses Praktikum erfolgreich abgeschlossen hatte, begann der Krieg in meiner Heimat, deswegen mussten wir nach Deutschland kommen und uns mit anderen Dingen beschäftigen. Es wäre besser gewesen, wenn ich aus Deutschland für die ukrainische Firma hätte arbeiten können. Leider war das nicht möglich.
+
+Trotz dieser Schwierigkeiten bereue ich meine Berufswahl nicht, weil ich viel über Informatik gelernt habe. Ich werde weiterhin nach einem neuen Job suchen.
