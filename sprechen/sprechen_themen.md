@@ -107,7 +107,7 @@ Trotzdem habe ich eine schöne Zeit bei der Arbeit gehabt, und ich wünsche mir 
  
 ---
 
-## Arbeitsumfeld
+## 5. Arbeitsumfeld
 
 > **Aufgabe:** Beschreiben Sie Ihr Arbeitsumfeld (z. B. Arbeitsklima, Kollegen, Chef, Vor- und Nachteile).
 
