@@ -8,6 +8,7 @@ Sammlung von Themen und Mustertexten für den mündlichen Teil der Prüfung **De
 2. [Den Arbeitgeber beschreiben](#2-den-arbeitgeber-beschreiben)
 3. [Bei der Arbeitssuche](#3-bei-der-arbeitssuche)
 4. [Berufliches Vorbild](#4-berufliches-vorbild)
+5. [Arbeitsumfeld](#5-arbeitsumfeld)
 ---
  
 ## 1. Produkt beschreiben
@@ -105,16 +106,26 @@ Es ist bedauerlich, dass er nicht mehr in der Filiale ist. Und ich gehe davon au
 Trotzdem habe ich eine schöne Zeit bei der Arbeit gehabt, und ich wünsche mir in der Zukunft einen ähnlichen Schichtleiter. Deswegen ist er für mich ein echtes berufliches Vorbild.
  
 ---
- 
-## 💡 Nützliche Redemittel (aus den Texten)
- 
-| Funktion | Redemittel |
-|---|---|
-| Einleitung | *Heute möchte ich Ihnen … vorstellen* · *Nach langem Überlegen habe ich mich dafür entschieden …* · *Momentan würde ich gerne darüber erzählen …* |
-| Übergang | *Als nächstes wollte ich zu … übergehen* · *Außerdem wollte ich kurz über … erzählen* |
-| Statistik | *Laut Statistik …* · *Wussten Sie eigentlich, dass …?* |
-| Gegensatz | *Zwar …, aber …* · *Einerseits …, andererseits …* · *Trotzdem …* |
-| Folge / Grund | *infolgedessen* · *um … zu …* · *damit …* · *weil …* |
-| Meinung | *Ich bin der Auffassung, dass …* · *Ich würde sagen, dass …* |
-| Empfehlung | *Ich kann … empfehlen, weil …* |
-| Zeitfolge | *Sobald …* · *Nachdem …* · *Falls …* |
+
+## Arbeitsumfeld
+
+> **Aufgabe:** Beschreiben Sie Ihr Arbeitsumfeld (z. B. Arbeitsklima, Kollegen, Chef, Vor- und Nachteile).
+
+### 🔑 Stichpunkte
+
+- Was bedeutet ein gutes Arbeitsumfeld → gutes Arbeitsklima → Engagement, gute Leistungen
+- Kollegen: lockere Atmosphäre → kompetent, freundlich, hilfsbereit
+- Chef: soll zur Arbeit beitragen → *Erfahrung bei früheren Firmen*
+- Negatives Beispiel: Aufgaben delegiert ohne Hilfe oder Erklärungen, manchmal arrogant, keine Kritik angenommen
+- Vorschläge des Teams immer abgelehnt → *Ich hätte mir gewünscht, dass sie berücksichtigt worden wären*
+- Vorteile: ergonomische Arbeitsplätze, neue technische Ausstattung, ab und zu Homeoffice
+- Fazit in einem Satz: Arbeitsklima + Kollegen spielen eine große Rolle
+
+### 📝 Mustertext
+
+Ich stelle Ihnen dar, was für mich ein gutes Arbeitsumfeld bedeutet. Meiner Meinung nach ist es bei der Arbeit ausschlaggebend, ein gutes Arbeitsklima zu schaffen, damit man seine Tätigkeit mit großem Engagement ausüben kann und gute Leistungen erbringen kann. Kollegen spielen auch eine große Rolle dabei. Im Team kann eine lockere Atmosphäre herrschen, indem die Kollegen kompetent, freundlich und hilfsbereit sind. Es ist auch entscheidend, dass nicht nur die Kollegen sondern auch der Chef zur Arbeit beiträgt, weil ich schon solche Erfahrungen bei letzten Firmen gesammelt habe. Als ich in der Heimat gearbeitet hatte, hat unser Chef nur die Aufgaben delegiert, ohne Hilfe oder Erklärungen anzubieten. Es lässt sich auch hinzufügen, dass er manchmal arrogant war, und keine Kritik annahm. Alle Änderungen oder Verbesserungen der Arbeit vom Team wurden immer abgelehnt, ohne dass wir sie ansprechen durften. Es wäre für mich vielleicht traumhaft gewesen, wenn unsere Vorschläge berücksichtigt worden wären.
+
+Es gab natürlich bei der letzten Arbeit auch Vorteile, z.B ergonomische Arbeitsplätze, neue technische Ausstattung, und wir durften ab und zu von Zuhause arbeiten.
+Also, wenn ich mein Arbeitsumfeld in einem Satz beschreiben müsste, würde ich sagen, dass sowohl das Arbeitsklima als auch Kollegen eine große Rolle spielen.
+
+---
