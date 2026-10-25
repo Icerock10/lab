@@ -10,6 +10,7 @@ Sammlung von Themen und Mustertexten für den mündlichen Teil der Prüfung **De
 4. [Berufliches Vorbild](#4-berufliches-vorbild)
 5. [Arbeitsumfeld](#5-arbeitsumfeld)
 6. [Berufswahl](#6-berufswahl)
+7. [Bewerbungsgespräch](#7-bewerbungsgespräch)
 ---
  
 ## 1. Produkt beschreiben
@@ -158,3 +159,7 @@ Nachdem ich meinen Abschluss gemacht hatte, habe ich versucht, einen Job in dies
 Inzwischen ist Programmieren sehr gefragt geworden, und meine Freunde haben mir erzählt, dass diese Richtung ihr Interesse weckt und sich ausprobieren lässt. Infolgedessen wollte ich mich beruflich neu orientieren. Ohne zu zögern habe ich mich mit meinen Freunden in Verbindung gesetzt, um mich zu erkundigen, wie man am besten Programmieren lernen kann. Mir ist mitgeteilt worden, dass man seinen Berufsweg erleichtern kann, indem man ein Praktikum bei einer bekannten Firma macht. Nachdem ich dieses Praktikum erfolgreich abgeschlossen hatte, begann der Krieg in meiner Heimat, deswegen mussten wir nach Deutschland kommen und uns mit anderen Dingen beschäftigen. Es wäre besser gewesen, wenn ich aus Deutschland für die ukrainische Firma hätte arbeiten können. Leider war das nicht möglich.
 
 Trotz dieser Schwierigkeiten bereue ich meine Berufswahl nicht, weil ich viel über Informatik gelernt habe. Ich werde weiterhin nach einem neuen Job suchen.
+
+---
+
+## 7. Bewerbungsgespräch
