@@ -40,7 +40,6 @@
 - einen Termin `vereinbaren | verschieben , verlegen | absagen | einhalten`
 - an einem Termin `verhindert sein` *(не иметь возможности прийти)*
 - den Termin `wahr-nehmen` *(nutzen = прийти на встречу, воспользоваться)*
-- zum Termin `erscheinen` *(явиться)*
 
 ## 📁 Teamgeist / Zwischenmenschliches
 
@@ -49,7 +48,6 @@
 - der Teamgeist `stärken | fördern` *(укреплять/способствовать командному духу)*
 - ein gutes Arbeitsklima `schaffen`
 - Wissen/Erfahrungen `austauschen` *(обмениваться знаниями/опытом)*
-- ein Konflikt `entstehen | aufkommen` *(конфликт возникает)*
 - Missverständnisse `klären`
 - sachliche Kritik `üben an + Dativ`
 - eine lockere Kommunikation `herrschen` (свободное общение преобладает)
@@ -81,10 +79,11 @@
 
 ## 📁 Ausbildung / Beruf
 
-1. in einen Beruf `reinschnuppern` *(попробовать, понюхать)*
-2. einen Beruf `ergreifen` *(выбрать профессию, начать карьерный путь — книжно)*
-3. eine Ausbildung `machen zu` + D *(обучаться на кого-то, напр. zum Elektriker)* | `abschließen`
-4. eine Tätigkeit `ausüben | erlernen` *(осуществлять деятельность — уже сам рабочий процесс)*
+1. in einen Beruf `reinschnuppern` (*= z.B durch Schnupperpraktikum) *(попробовать)*
+2. einen Beruf `ergreifen (auswählen)` *(выбрать профессию, начать карьерный путь — книжно)*
+3. eine Ausbildung `machen zu` + D | `abschließen`
+4. eine Tätigkeit `erlernen` - **(получил профессию или навык)**
+5. eine Tätigkeit `ausüben` *(schon arbeiten)*
 - Deutschkenntnisse `durch etwas erwerben` *(приобретать знания — через учёбу/курс)*
 - Fachkenntnisse/Deutschkenntnisse `nachweisen (подтверждать) | vertiefen`
 - einen Berufsabschluss, Zeugnis/Diplom `anerkennen lassen`
@@ -105,7 +104,6 @@
 
 — Vertrag:
 - der Arbeitsvertrag `aufsetzen (составлять договор) | kündigen | unterschreiben`
-
 - Überstunden `ausgleichen` *(выравнивать)*
 - Überstunden `abbauen (сокращать накопленные часы) | umwandeln (конвертировать во что-то)`
 - `entlassen, (gekündigt sein)`
@@ -114,13 +112,6 @@
 
 - eine Firma `gründen, eröffnen` *(основать/открыть — разовое действие)*
 - eine Firma `betreiben, leiten, führen` *(вести/руководить — длительный процесс)*
-
-## 📁 Berufe beschreiben
-
-- ein Beruf, der viel `Verantwortung erfordert`
-- körperlich `anstrengend` *(физически тяжёлая работа)*
-- im Freien/drinnen `arbeiten` *(работать на улице/в помещении)*
-- mit den Händen `arbeiten` *(работать руками)*
 
 ## 📁 Technische Probleme (Büro/Haushalt)
 
@@ -153,4 +144,21 @@
 - `ich gehe davon aus, dass` **(я исхожу из того, что..." / "я предполагаю, что...)**
 - `sich anfühlen (ощущаться)` - *Es fühlt sich komisch an, nach so langer Zeit zurückzukommen.*
 -  das Interesse `wecken für + Akk`
--  Einsatz, `einsetzen von/in + D` **(применение, использование)**
+-  der Einsatz, `einsetzen von/in + D` **(применение, использование)**
+-  `zur Erkenntnis gelangen` | прийти к выводу, осознать (= erkennen, zu dem Schluss kommen)
+-  `aufbewahren, aufheben` | хранить, сохранять
+-  `beteiligen, einbeziehen` (an + Dat.) | привлекать к участию; sich beteiligen: участвовать
+-  `ausnehmen` | исключать, извлекать |
+-  `gestalten` | оформлять, организовывать, формировать |
+- `ausschlaggebend` | решающий (= entscheidend) |
+- `verhindern` | предотвращать, не допускать |
+- `vorbeugen` (+ Dat.) | предупреждать, принимать профилактические меры |
+- `sich anpassen` | = `adaptieren`; приспосабливаться |
+- `gute Leistung erbringen` | хорошие результаты показывать
+- `anweisen` (=~ belehren)
+- `Der Wandel = Veränderung`, | `umwandeln`
+- `vergewissern` **(=~ versichern)** | убедиться в чём-то
+- ein Konflikt `entstehen | auftauchen | aufkommen` *(конфликт возникает)*
+- `erscheinen` *(явиться)*
+- `eine Genehmigung erteilen` | выдавать
+- `anstehende` Aufgaben, Termine, Reparaturen - **(müssen bald gemacht werden)**
