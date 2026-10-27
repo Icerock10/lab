@@ -28,8 +28,6 @@
 | `der Online-Auftritt` = `die Präsenz` | присутствие в интернете: сайт, аккаунты в соцсетях |
 | `etw. der Öffentlichkeit vorstellen` | = Außenpräsentation; публично представить |
 | `etw. in einem guten Licht darstellen` | представлять, изображать в выгодном свете |
-| `sich anpassen` | = `adaptieren`; приспосабливаться |
-| `jdn (mit)einbeziehen` ≈ `jdn beteiligen` / `mitmachen lassen` | вовлекать, приобщать |
 | `das Nahrungsmittel` = das Lebensmittel | продукт питания |
 | `die Ernährung` | питание как система; sich gesund ernähren |
 | `die Zunahme / die Abnahme` | рост / спад |
@@ -37,15 +35,7 @@
 | `Preise / Umsatz sinken` (ist gesunken) | падать |
 | `überlastet / belastet / ausgelastet` | перегружен / нагружен / загружен полностью | `die Überlastung`
 | `jdn entlasten → die Entlastung` | разгрузить → разгрузка |
-| `ausnehmen` | исключать, извлекать |
-| `aufbewahren, aufheben` | хранить, сохранять |
-| `beteiligen, einbeziehen` (an + Dat.) | привлекать к участию; sich beteiligen: участвовать |
-| `zur Erkenntnis gelangen` | прийти к выводу, осознать (= erkennen, zu dem Schluss kommen) |
-| `verhindern` | предотвращать, не допускать |
-| `vorbeugen` (+ Dat.) | предупреждать, принимать профилактические меры |
 | `die Gleitzeit` | скользящий график: начало и конец рабочего дня гибкие |
 | `die Kernzeit` | обязательное время присутствия на работе |
 | `der Freizeitausgleich` | отгул вместо оплаты за переработку |
-| `ausschlaggebend` | решающий (= entscheidend) |
-| `gestalten` | оформлять, организовывать, формировать |
 | `Studien belegen, Untersuchung, Forschung` | исследование |
