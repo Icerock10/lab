@@ -15,7 +15,7 @@
 ## 📁 Angebot
 
 - ein Angebot `für` etwas `unterbreiten (nur Verkäufer) | ein-holen (nur Kunde) | annehmen | ablehnen`
-- einen Preisnachlass, der Rabatt `auf` etwas | die Garantie `gewähren (предоставлять) | anbieten | verlängern`
+- einen Preisnachlass, die Ermäßigung, der Rabatt `auf` etwas | die Garantie `gewähren (предоставлять) | anbieten | verlängern`
 - das Preis-Leistungs-Verhältnis `vergleichen | bewerten | passen | haben` *(соотношение цена-качество)*
 - die Maße (Höhe, Breite, Tiefe) `angeben (сообщить о Maße) | mit dem Meterstab ausmessen`
 - den angegebenen Maßen `entsprechen`
@@ -162,3 +162,4 @@
 - `erscheinen` *(явиться)*
 - `eine Genehmigung erteilen` | выдавать
 - `anstehende` Aufgaben, Termine, Reparaturen - **(müssen bald gemacht werden)**
+- `nachhaltig, langfristig` umweltfreundliches Verhalten
