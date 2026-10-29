@@ -163,3 +163,12 @@
 - `eine Genehmigung erteilen` | выдавать
 - `anstehende` Aufgaben, Termine, Reparaturen - **(müssen bald gemacht werden)**
 - `nachhaltig, langfristig` umweltfreundliches Verhalten
+- `das Gewissen` - совесть
+- `die Wirtschaft` - экономика
+- `beeinträchtigen, beschädigen` - вредить
+- `Vergütung, Belohnung` - Вознаграждение
+- `der Personaler` - das Recruiting (рекрутер)
+- `nachhaken` - выяснять
+- `die Erwerbslosigkeit` - arbeitslos zu sein
+- `vertagen` - переносить
+- `abhalten` =~ durchführen
