@@ -9,10 +9,13 @@
 - einen Beitrag leisten zu
 - jemand wird eingearbeitet
 - sich ausruhen / erholen
+- es lässt sich erwähnen
+- der Teamgeist stärken, ein gutes Arbeitsklima schaffen, eine lockere Kommunikation herrschen
 
 # 2. Lösung zu finden
 
 - in einem guten Licht darstellen
+- kümmern -> Problem nicht entstehen
 - es liegt an + D
 - vorgehen bei + D
 - einen Gutschein über 20 Euro ausstellen
