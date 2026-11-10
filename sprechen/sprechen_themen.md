@@ -147,10 +147,8 @@ Wenn ich den traumhaften Arbeitsumfeld in einem Satz beschreiben müsste, sage i
 
 ### 📝 Mustertext
 
-Ich möchte Ihnen vorstellen, was zu meinem Berufswahl gekommen ist. Nach langem Überlegen habe ich den Entschluss gefasst, an der Universität Informationssicherheitsmanagement zu studieren, weil ich meine ganze Kindheit vor dem Computer gesessen habe.
-
+Ich möchte Ihnen vorstellen, wie es zu meiner Berufswahl gekommen ist. Nach langem Überlegen habe ich den Entschluss gefasst, an der Universität Informationssicherheitsmanagement zu studieren, weil ich meine ganze Kindheit vor dem Computer gesessen habe.
 Nachdem ich meinen Abschluss gemacht hatte, habe ich versucht, einen Job in diesem Bereich zu finden, hatte aber leider keinen Erfolg.
-
 Inzwischen ist Programmieren sehr gefragt geworden, und meine Freunde haben mir erzählt, dass diese Richtung ihr Interesse weckt und sich ausprobieren lässt. Infolgedessen wollte ich mich beruflich neu orientieren. Ohne zu zögern habe ich mich mit meinen Freunden in Verbindung gesetzt, um mich zu erkundigen, wie man am besten Programmieren lernen kann. Mir ist mitgeteilt worden, dass man seinen Berufsweg erleichtern kann, indem man ein Praktikum bei einer bekannten Firma macht. Nachdem ich dieses Praktikum erfolgreich abgeschlossen hatte, begann der Krieg in meiner Heimat, deswegen mussten wir nach Deutschland kommen und uns mit anderen Dingen beschäftigen. Es wäre besser gewesen, wenn ich aus Deutschland für die ukrainische Firma hätte arbeiten können. Leider war das nicht möglich.
 
 Wenn ich meine Berufspläne in einem Satz zusammenfassen müsste, sage ich, dass ich weiterhin nach einem neuen Job suchen werde weil ich gute Erfahrungen im Bereich Informatik gesammelt habe.
