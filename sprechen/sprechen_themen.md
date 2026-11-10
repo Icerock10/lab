@@ -23,18 +23,18 @@ Sammlung von Themen und Mustertexten für den mündlichen Teil der Prüfung **De
 - *Zwar* … definitiv Lösung, *aber* … nicht anfassen
 ### 📝 Mustertext
  
-Heute möchte ich Ihnen ein Produkt von Amazon vorstellen, beziehungsweise eine Webanwendung, in der man einkaufen kann, ohne das Haus zu verlassen.
+ich möchte Ihnen ein Produkt von Amazon vorstellen, beziehungsweise eine Webanwendung, in der man einkaufen kann, ohne das Haus zu verlassen.
 Wussten Sie eigentlich, dass heutzutage die meisten Menschen den Online-Einkauf bevorzugen, anstatt draußen in den Laden zu gehen?
 Laut Statistik ist die Zielgruppe vor allem Privatkunden zwischen 25 und 55 Jahren, die die Anwendung häufig verwenden.
  
 Als nächstes wollte ich zu den Hauptfunktionen übergehen. Die Anwendung verfügt über mehrere Funktionen. Die Produkte lassen sich z. B. suchen, vergleichen und bestellen.
 Es gibt auch die Gelegenheit, ein Kundenkonto zu erstellen, damit man sich problemlos anmelden kann. Sobald das Konto erstellt worden ist, können die Zahlungsmethoden hinzugefügt werden, damit man schnell und effizient bezahlen kann. Sowohl die Kreditkarte als auch die IBAN lassen sich verbinden.
  
-Außerdem wollte ich kurz über eine Situation erzählen, in der die Anwendung sehr behilflich gewesen ist. Ich habe vor zwei Wochen ein digitales Buch bestellt, das ich nie erhalten habe. Sobald ich einen Antrag gestellt hatte, wurde mir das Geld schnell erstattet.
+Außerdem wollte ich kurz über eine Situation erzählen, in der die Anwendung sehr behilflich gewesen ist. Ich habe vor zwei Wochen ein digitales Buch bestellt, das ich nie erhalten habe. Nachdem ich einen Antrag gestellt hatte, wurde mir das Geld schnell erstattet.
 Und ja, ich sage, dass das Verfahren länger hätte laufen können, wenn ich die Anwendung nicht benutzt hätte.
- 
-Zwar sieht es so aus, als ob es definitiv eine schöne Lösung für den Online-Einkauf wäre, aber man kann natürlich das Produkt nicht anfassen, bevor es geliefert wird.
-Trotzdem würde ich die Anwendung jedem empfehlen, weil ich damit nur positive Erfahrungen gesammelt habe.
+
+Wenn ich diesen Produkt in einem Satz beschreiben müsste, dann würde ich sagen, dass die Anwendung die Einkäufe erleichtert, und durch die Anwendung kann man schnell bezahlen.
+Deswegen ist die Anwendung von mir unbedingt zu empfehlen.
  
 ---
  
@@ -51,18 +51,16 @@ Trotzdem würde ich die Anwendung jedem empfehlen, weil ich damit nur positive E
 - Nachteil: hohe Konkurrenz, Druck, Burnout
 ### 📝 Mustertext
  
-Nach langem Überlegen habe ich mich dafür entschieden, über Amazon zu erzählen.
+Ich möchte Ihnen Amazon Firma wie Arbeitgeber vorstellen. 
 Die Geschichte der Firma hat im Jahr 1995 angefangen, als sie von Jeff Bezos in Seattle gegründet worden ist.
-Das Hauptziel war, über das Internet die Einkäufe für Kunden zu erleichtern und den größten Buchladen der Welt zu kreieren. Um dieses Ziel erreichen zu können, hat Jeff den Entschluss gefasst, Bücher zu verkaufen, weil sie sich einfach lagern und verpacken ließen. Im ersten Monat sind die Umsätze stark gestiegen, infolgedessen konnte sich die Firma im Online-Handel weiterentwickeln.
+Das Hauptziel war, über das Internet die Einkäufe für Kunden zu erleichtern und den größten Buchladen der Welt zu schaffen. Um dieses Ziel erreichen zu können, hat Jeff den Entschluss gefasst, Bücher zu verkaufen, weil sie sich einfach lagern und verpacken ließen. Im ersten Monat sind die Umsätze stark gestiegen, infolgedessen konnte sich die Firma im Online-Handel weiterentwickeln.
  
-In den letzten 20 Jahren hat sich die Firma ziemlich stark erweitert, und die Anzahl der Mitarbeitenden hat mehr als 500.000 erreicht. Der Hauptsitz befindet sich in Seattle, USA, und es gibt auch eine Niederlassung in München.
- 
-Aber heutzutage ist Amazon nicht nur im Online-Handel tätig, sondern auch Anbieter von Cloud-Diensten, den sogenannten Amazon Web Services. Dadurch können Unternehmen Speicherplatz mieten, anstatt eigene teure Server kaufen zu müssen.
- 
-Ich kann Amazon als Arbeitgeber empfehlen, weil es dort so viele Weiterbildungsmöglichkeiten gibt. Außerdem ist Amazon eine internationale Firma, in der man großartige Erfahrungen sammeln kann.
- 
-Ich würde sagen, dass fast jeder Mensch davon träumt, bei Amazon eine Tätigkeit ausüben zu können. Aber in den letzten Jahren ist es wegen der hohen Konkurrenz schwieriger geworden. Zwar ist es ein Traumjob, aber man steht häufig unter Druck und kann ausbrennen.
- 
+In den letzten 20 Jahren hat sich die Firma ziemlich stark erweitert. Heutzutage befindet sich der Hauptsitz in Seattle, USA, und es gibt auch eine Niederlassung in München.
+Aber Amazon ist nicht nur Online-Händler, sondern auch Anbieter von Cloud-Diensten, den sogenannten Amazon Web Services. Dadurch können Unternehmen Speicherplatz mieten, anstatt eigene teure Server kaufen zu müssen.
+Als ich in der Heimat gearbeitet habe, träumte ich immer davon, bei solcher Firma eine Tätigkeit auszuüben. Es wäre besser gewesen, wenn ich solche Erfahrungen hätte sammeln können.
+Wenn ich Amazon Firma in einem Satz beschreiben müsste, dann würde ich sagen, dass Amazon eine internationale Firma ist, und es gibt dort so viele Weiterbildungsmöglichkeiten.
+Deswegen ist die Firma zu empfehlen.
+
 ---
  
 ## 3. Bei der Arbeitssuche
@@ -76,15 +74,14 @@ Ich würde sagen, dass fast jeder Mensch davon träumt, bei Amazon eine Tätigke
 - Voraussetzungen: Recherche im Internet, Übersetzung des Abschlusses, Deutschkenntnisse nachweisen
 ### 📝 Mustertext
  
-Momentan würde ich gerne darüber erzählen, wie man in der Ukraine einen Job findet. Für manche Leute dürfte es in den letzten Jahren schwierig gewesen sein, eine feste Anstellung zu finden. Meistens fand man einen Job sowohl über Online-Portale als auch über private Kontakte.
+Ich möchte Ihnen vorstellen, wie man bei der Jobssuche vorgehen soll. Für manche Leute dürfte es in den letzten Jahren schwierig gewesen sein, eine feste Anstellung zu finden. Meistens fand man einen Job sowohl über Online-Portale als auch über private Kontakte.
  
-Bei der Jobsuche ist es sehr wichtig, auf keinen Fall aufzugeben und sich kontinuierlich zu bewerben. Sobald man eine passende Stelle findet, müssen die Unterlagen sofort eingereicht werden, um eine Einladung zum Vorstellungsgespräch erhalten zu können. Falls das Vorstellungsgespräch erfolgreich ist, wird der Arbeitsvertrag aufgesetzt.
+Bei der Jobsuche ist es sehr ausschlaggebend, auf keinen Fall aufzugeben und sich kontinuierlich zu bewerben. Sobald man eine passende Stelle findet, müssen die Unterlagen sofort eingereichen werden, um eine Einladung zum Vorstellungsgespräch erhalten zu können. Falls das Vorstellungsgespräch erfolgreich ist, wird der Arbeitsvertrag aufgesetzt.
  
-Aber ich bin der Auffassung, dass es in Deutschland ganz anders funktioniert. Einerseits gibt es auch viele Online-Jobbörsen, andererseits läuft vieles über das sogenannte „Vitamin B“, sozusagen durch Beziehungen. Das bedeutet, dass man Kontakte mit anderen Menschen knüpfen sollte, um empfohlen zu werden. Außerdem müsste man beim Bewerbungsprozess ein Anschreiben einreichen, um den Arbeitgeber zu beeindrucken.
+Aber ich bin der Auffassung, dass es in Deutschland ganz anders funktioniert. Zwar gibt es auch viele Online-Jobbörsen, aber läuft vieles über das sogenannte „Vitamin B“, sozusagen durch Beziehungen. Das bedeutet, dass man Kontakte mit anderen Menschen knüpfen sollte, um empfohlen zu werden. Außerdem müsste man beim Bewerbungsprozess ein Anschreiben einreichen, um den Arbeitgeber zu beeindrucken.
  
-Aber das wäre nicht genug, um einen Job in Deutschland zu bekommen, weil man ohne abgeschlossene Ausbildung weniger Chancen bei der Jobsuche hat. Wenn man aber schon einen Beruf in der Heimat erlernt hat, kann man seinen Berufsabschluss anerkennen lassen, um seine Tätigkeit in Deutschland ausüben zu dürfen. Nachdem ich ein bisschen recherchiert hatte, kann ich bestätigen, dass nicht jeder Beruf anerkannt werden kann.
- 
-Man könnte im Internet recherchieren, um sich darüber zu informieren. Es ist auch wichtig, die Übersetzung des Abschlusses anfertigen zu lassen und Deutschkenntnisse nachzuweisen. Nachdem diese Voraussetzungen erfüllt worden sind, hat man bessere Chancen bei der Jobsuche.
+Wenn man aber schon einen Beruf in der Heimat erlernt hat, kann man seinen Berufsabschluss anerkennen lassen, um seine Tätigkeit in Deutschland ausüben zu dürfen. Nachdem ich ein bisschen recherchiert hatte, kann ich bestätigen, dass nicht jeder Beruf leider anerkannt werden kann. Man soll darüber im Internet recherchieren, um Bescheid zu wissen.
+Wenn ich meine Tipps in einem Satz zusammenfassen müsste, dann würde ich sagen, dass nicht nur die Deutchkentnisse sondern auch die private Kontakte eine große Rolle spielen.
  
 ---
 ## 4. Berufliches Vorbild
@@ -101,11 +98,10 @@ Man könnte im Internet recherchieren, um sich darüber zu informieren. Es ist a
 - Jetzt: bedauerlich, in andere Filiale versetzt → *Ich wünsche mir einen ähnlichen Schichtleiter*
 ### 📝 Mustertext
  
-Ich möchte Ihnen eine Person beschreiben, die mich bei der Arbeit sehr beeinflusst hat. Es geht um meinen Schichtleiter Michael, der zusammen mit mir gearbeitet hat. Er war immer eine lockere Person, die immer ausgezeichnete Arbeit geleistet hat. Er war Schichtleiter, der alle Aufgaben delegieren konnte, aber er hat viel zu viel selbst erledigt, ohne Hilfe zu benötigen. Er verfügte über Eigenschaften wie z. B. Selbstvertrauen und Durchhaltevermögen, er konnte nämlich die Schicht durchziehen, obwohl er keine Lust hatte oder krank war. Ich war immer davon begeistert, dass seine Laune die anderen Mitarbeiter nicht beeinflusst hat. Wenn ich mich für etwas interessierte, wusste er immer mehr als die anderen. Ich habe wirklich nützliche Erfahrungen sammeln können und konnte meine Fachkenntnisse durch seine Erklärungen vertiefen. Jetzt kenne ich mich mit den Arbeitsabläufen gut aus, ich weiß, wie man die Maschinen bedient und die Kunden richtig berät, um ihnen Wertschätzung entgegenzubringen.
+Ich möchte Ihnen eine Person vorstellen, die mich bei der Arbeit sehr beeinflusst hat. Es geht um meinen Schichtleiter Michael, der zusammen mit mir gearbeitet hat. Er war immer eine lockere Person, die immer ausgezeichnete Arbeit geleistet hat. Er war Schichtleiter, der alle Aufgaben delegieren konnte, aber er hat viel zu viel selbst erledigt, ohne Hilfe zu benötigen. Er verfügte über Eigenschaften wie z. B. Selbstvertrauen und Durchhaltevermögen, er konnte nämlich die Schicht durchziehen, obwohl er keine Lust hatte oder krank war. Ich war immer davon begeistert, dass seine Laune die anderen Mitarbeiter nicht beeinflusst hat. Wenn ich mich für etwas interessierte, wusste er immer mehr als die anderen. Ich habe wirklich nützliche Erfahrungen sammeln können und konnte meine Fachkenntnisse durch seine Erklärungen vertiefen. Jetzt kenne ich mich mit den Arbeitsabläufen gut aus, ich weiß, wie man die Maschinen bedient und die Kunden richtig berät, um ihnen Wertschätzung entgegenzubringen.
  
 Es ist bedauerlich, dass er nicht mehr in der Filiale ist. Und ich gehe davon aus, dass ich besser hätte arbeiten können, wenn er nicht in eine andere Filiale versetzt worden wäre.
- 
-Trotzdem habe ich eine schöne Zeit bei der Arbeit gehabt, und ich wünsche mir in der Zukunft einen ähnlichen Schichtleiter. Deswegen ist er für mich ein echtes berufliches Vorbild.
+Wenn ich ihn in einem Satz beschreiben müsste, sage ich, dass er nicht nur ein erfahrener Mitarbeiter gewesen ist, sondern auch eine tolle und lockere Person, mit der ich eine schöne Zeit bei der Arbeit hatte.
  
 ---
 
@@ -125,10 +121,9 @@ Trotzdem habe ich eine schöne Zeit bei der Arbeit gehabt, und ich wünsche mir 
 
 ### 📝 Mustertext
 
-Ich stelle Ihnen dar, was für mich ein gutes Arbeitsumfeld bedeutet. Meiner Meinung nach ist es bei der Arbeit ausschlaggebend, ein gutes Arbeitsklima zu schaffen, damit man seine Tätigkeit mit großem Engagement ausüben kann und gute Leistungen erbringen kann. Kollegen spielen auch eine große Rolle dabei. Im Team kann eine lockere Atmosphäre herrschen, indem die Kollegen kompetent, freundlich und hilfsbereit sind. Es ist auch entscheidend, dass nicht nur die Kollegen sondern auch der Chef zur Arbeit beiträgt, weil ich schon solche Erfahrungen bei letzten Firmen gesammelt habe. Als ich in der Heimat gearbeitet hatte, hat unser Chef nur die Aufgaben delegiert, ohne Hilfe oder Erklärungen anzubieten. Es lässt sich auch hinzufügen, dass er manchmal arrogant war, und keine Kritik annahm. Alle Änderungen oder Verbesserungen der Arbeit vom Team wurden immer abgelehnt, ohne dass wir sie ansprechen durften. Es wäre für mich besser gewesen, wenn unsere Vorschläge berücksichtigt worden wären.
+Ich möchte Ihnen ein gutes Arbeitsumfeld vorstellen. Meiner Meinung nach ist es bei der Arbeit ausschlaggebend, ein gutes Arbeitsklima zu schaffen, damit man seine Tätigkeit mit großem Engagement ausüben kann und gute Leistungen erbringen kann. Kollegen spielen auch eine große Rolle dabei. Im Team kann eine lockere Atmosphäre herrschen, indem die Kollegen kompetent, freundlich und hilfsbereit sind. Es ist auch entscheidend, dass nicht nur die Kollegen sondern auch der Chef zur Arbeit beiträgt, weil ich schon solche Erfahrungen bei letzten Firmen gesammelt habe. Als ich in der Heimat gearbeitet hatte, hat unser Chef nur die Aufgaben delegiert, ohne Hilfe oder Erklärungen anzubieten. Es lässt sich auch hinzufügen, dass er manchmal arrogant war, und keine Kritik annahm. Alle Änderungen oder Verbesserungen der Arbeit vom Team wurden immer abgelehnt, ohne dass wir sie ansprechen durften. Es wäre für mich besser gewesen, wenn unsere Vorschläge berücksichtigt worden wären.
 
-Es gab natürlich bei der letzten Arbeit auch Vorteile, z.B ergonomische Arbeitsplätze, neue technische Ausstattung, und wir durften ab und zu von Zuhause arbeiten.
-Also, wenn ich mein Arbeitsumfeld in einem Satz beschreiben müsste, würde ich sagen, dass sowohl das Arbeitsklima als auch Kollegen eine große Rolle spielen.
+Wenn ich den traumhaften Arbeitsumfeld in einem Satz beschreiben müsste, sage ich, dass nicht nur eine lockere Atmosphäre sondern auch die Mitarbeiter eine große Rolle spielen.
 
 ---
 
@@ -152,13 +147,13 @@ Also, wenn ich mein Arbeitsumfeld in einem Satz beschreiben müsste, würde ich 
 
 ### 📝 Mustertext
 
-Nachdem ich die Schule abgeschlossen hatte, habe ich mir ein paar Gedanken gemacht, in welchem Bereich ich arbeiten möchte. Nach langem Überlegen habe ich den Entschluss gefasst, an der Universität Informationssicherheitsmanagement zu studieren, weil ich meine ganze Kindheit vor dem Computer gesessen habe.
+Ich möchte Ihnen vorstellen, was zu meinem Berufswahl gekommen ist. Nach langem Überlegen habe ich den Entschluss gefasst, an der Universität Informationssicherheitsmanagement zu studieren, weil ich meine ganze Kindheit vor dem Computer gesessen habe.
 
 Nachdem ich meinen Abschluss gemacht hatte, habe ich versucht, einen Job in diesem Bereich zu finden, hatte aber leider keinen Erfolg.
 
 Inzwischen ist Programmieren sehr gefragt geworden, und meine Freunde haben mir erzählt, dass diese Richtung ihr Interesse weckt und sich ausprobieren lässt. Infolgedessen wollte ich mich beruflich neu orientieren. Ohne zu zögern habe ich mich mit meinen Freunden in Verbindung gesetzt, um mich zu erkundigen, wie man am besten Programmieren lernen kann. Mir ist mitgeteilt worden, dass man seinen Berufsweg erleichtern kann, indem man ein Praktikum bei einer bekannten Firma macht. Nachdem ich dieses Praktikum erfolgreich abgeschlossen hatte, begann der Krieg in meiner Heimat, deswegen mussten wir nach Deutschland kommen und uns mit anderen Dingen beschäftigen. Es wäre besser gewesen, wenn ich aus Deutschland für die ukrainische Firma hätte arbeiten können. Leider war das nicht möglich.
 
-Trotz dieser Schwierigkeiten bereue ich meine Berufswahl nicht, weil ich viel über Informatik gelernt habe. Ich werde weiterhin nach einem neuen Job suchen.
+Wenn ich meine Berufspläne in einem Satz zusammenfassen müsste, sage ich, dass ich weiterhin nach einem neuen Job suchen werde weil ich gute Erfahrungen im Bereich Informatik gesammelt habe.
 
 ---
 
@@ -179,14 +174,12 @@ Trotz dieser Schwierigkeiten bereue ich meine Berufswahl nicht, weil ich viel ü
 
 ### 📝 Mustertext
 
-Ich stelle Ihnen dar, was beim Bewerbungsgespräch ausschlaggebend ist.
+Ich möchte Ihnen vorstellen, was beim Bewerbungsgespräch ausschlaggebend ist.
 
 Für die meisten Leute ist es selbstverständlich, nicht nur die richtige Kleidung vorzubereiten, sondern auch sauber und gepflegt aufzutreten. Außerdem ist es entscheidend, pünktlich zu sein. Man sollte idealerweise 10 Minuten vorher an Ort und Stelle erscheinen, um sein Interesse und seine Absichten dem Arbeitgeber zu zeigen.
 
 Was zu selten erwähnt wird: Die Firmen stellen in letzter Zeit Fragen über das Unternehmen, um davon überzeugt zu sein, dass der Bewerber die wichtigen Informationen zusammengefasst hat und diese Stelle sein Interesse wirklich weckt.
-
 Während des Gesprächs darf man nicht vergessen, sowohl den Augenkontakt zu halten als auch höflich und freundlich zu sein.
-
 Es gibt natürlich die floskelhaften Fragen, zu denen man sich gut vorbereiten kann, indem man entweder im Internet recherchiert oder ein paar Videos anschaut.
 
 Es kann sein, dass eine schwierige Frage gestellt wird, deren Antwort man einfach nicht weiß. Falls Sie in eine solche Situation kommen, würde ich empfehlen, nicht einfach "Ich habe keine Ahnung" zu sagen. Obwohl Sie die richtige Antwort nicht wissen, könnten Sie sich ein paar Gedanken laut machen und einfach darüber nachdenken, um Ihre Denkweise zu zeigen, damit der Arbeitgeber Ihre Gedanken nachvollziehen kann und sich dafür entscheiden könnte, Sie fest anzustellen.
