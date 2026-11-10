@@ -174,12 +174,12 @@ Wenn ich meine Berufspläne in einem Satz zusammenfassen müsste, sage ich, dass
 
 Ich möchte Ihnen vorstellen, was beim Bewerbungsgespräch ausschlaggebend ist.
 
-Für die meisten Leute ist es selbstverständlich, nicht nur die richtige Kleidung vorzubereiten, sondern auch sauber und gepflegt aufzutreten. Außerdem ist es entscheidend, pünktlich zu sein. Man sollte idealerweise 10 Minuten vorher an Ort und Stelle erscheinen, um sein Interesse und seine Absichten dem Arbeitgeber zu zeigen.
+Für die meisten Leute ist es selbstverständlich, nicht nur die passende Kleidung vorzubereiten, sondern auch sauber und gepflegt aufzutreten. Außerdem ist es entscheidend, pünktlich zu sein. Man sollte idealerweise 10 Minuten früher an Ort und Stelle sein, um sein Interesse und seine Absichten dem Arbeitgeber zu zeigen.
 
-Was zu selten erwähnt wird: Die Firmen stellen in letzter Zeit Fragen über das Unternehmen, um davon überzeugt zu sein, dass der Bewerber die wichtigen Informationen zusammengefasst hat und diese Stelle sein Interesse wirklich weckt.
+Was zu selten erwähnt wird: Die Firmen stellen in letzter Zeit Fragen über das Unternehmen, um davon überzeugt zu sein, dass der Bewerber sich über das Unternehmen informiert hat und diese Stelle sein Interesse wirklich weckt.
 Während des Gesprächs darf man nicht vergessen, sowohl den Augenkontakt zu halten als auch höflich und freundlich zu sein.
 Es gibt natürlich die floskelhaften Fragen, zu denen man sich gut vorbereiten kann, indem man entweder im Internet recherchiert oder ein paar Videos anschaut.
 
-Es kann sein, dass eine schwierige Frage gestellt wird, deren Antwort man einfach nicht weiß. Falls Sie in eine solche Situation kommen, würde ich empfehlen, nicht einfach "Ich habe keine Ahnung" zu sagen. Obwohl Sie die richtige Antwort nicht wissen, könnten Sie sich ein paar Gedanken laut machen und einfach darüber nachdenken, um Ihre Denkweise zu zeigen, damit der Arbeitgeber Ihre Gedanken nachvollziehen kann und sich dafür entscheiden könnte, Sie fest anzustellen.
+Es kann sein, dass eine schwierige Frage gestellt wird, deren Antwort man einfach nicht weiß. Falls Sie sich in einer solchen Situation befinden, würde ich empfehlen, die Ruhe zu bewahren, und nicht einfach "Ich habe keine Ahnung" zu sagen. Obwohl Sie die richtige Antwort nicht wissen, könnten Sie Ihre Gedanken laut aussprechen und einfach darüber nachdenken, dann kann der Arbeitgeber eventuell Ihre Denkweise nachvollziehen, und einen positiven Eindruck von Ihnen bekommen.
 
 Wenn ich alle Tipps in einem Satz zusammenfassen müsste, würde ich sagen, dass nicht nur die Pünktlichkeit und das Aussehen, sondern auch die Vorbereitung eine wichtige Rolle spielen.
