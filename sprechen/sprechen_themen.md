@@ -33,8 +33,8 @@ Es gibt auch die Gelegenheit, ein Kundenkonto zu erstellen, damit man sich probl
 Außerdem wollte ich kurz über eine Situation erzählen, in der die Anwendung sehr behilflich gewesen ist. Ich habe vor zwei Wochen ein digitales Buch bestellt, das ich nie erhalten habe. Nachdem ich einen Antrag gestellt hatte, wurde mir das Geld schnell erstattet.
 Und ja, ich sage, dass das Verfahren länger hätte laufen können, wenn ich die Anwendung nicht benutzt hätte.
 
-Wenn ich diesen Produkt in einem Satz beschreiben müsste, dann würde ich sagen, dass die Anwendung die Einkäufe erleichtert, und durch die Anwendung kann man schnell bezahlen.
-Deswegen ist die Anwendung von mir unbedingt zu empfehlen.
+Wenn ich diesen Produkt in einem Satz beschreiben müsste, dann würde ich sagen, dass die Anwendung nicht nur die Einkäufe erleichtern kann sondern auch über viel Funktionen verfügt.
+Deswegen ist die Anwendung von mir sehr beliebt und ich würde sie jedem empfehlen.
  
 ---
  
