@@ -4,43 +4,23 @@
  
 > Wie steigt man ins Thema ein?
  
-- Neulich habe ich herausgefunden, dass `[Thema]`.
 - In letzter Zeit wird viel darüber gesprochen, dass `[Thema]`. Deswegen möchte ich kurz meine Gedanken dazu zum Ausdruck bringen.
----
 
-## 💬 Eigene Meinung
- 
-> Wie formuliert man die eigene Position?
- 
-- Das scheint mir eine **tolle / schlechte** Idee zu sein.
-- Ich bin der Auffassung, dass ...
-- Es ist auch entscheidend, `zu + Infinitiv` ...
-- Zwar ..., aber ...
-- Es wäre besser, wenn ... `würde + Infinitiv`
-- Ich gehe davon aus, dass ...
+1. Diese Idee scheint mir sinnvoll/sinnlos zu sein, da...
+2. Es kommt natürlich darauf an, ob...
+3. Zwar ..., aber ...
+4. Es ist auch entscheidend / Ich gehe davon aus, dass ... / Ich bin der Auffassung
+5. Meine Erfahrung / Es wäre besser gewesen, wenn ...
+
 - Ich habe selbst erlebt, dass ...
-### 🗂️ Mögliche Argumentationsbereiche
- 
-Je nach Thema lässt sich die Meinung mit Bezug auf folgende Bereiche stützen:
- 
-| Bereich | Stichwort |
-|---|---|
-| 💰 | Zeit / Geld |
-| 🏥 | Gesundheit |
-| 🤝 | Soziales |
-| 🏛️ | Gesellschaft |
-| 🌱 | Umwelt |
-| 🤖 | Zukunft / Technik |
-| 🙋 | Ich persönlich |
- 
 ---
- 
 ## 🏁 Schluss
  
 > Wie rundet man den Beitrag ab?
  
-- Wenn ich es in einem Satz zusammenfassen müsste: Homeoffice ist ...
+- Wenn ich meine Gedanken in einem Satz zusammenfassen müsste, würde ich sagen, dass
 - Ich bin davon überzeugt, dass ...
+- Ich gehe davon aus, dass ...
 - Ich bin gespannt auf eure Meinungen.
 ---
 
