@@ -15,7 +15,8 @@
 - Ich habe selbst erlebt, dass ...
 ---
 ## 🏁 Schluss
- 
+- eine ausgewogene Work-Life-Balance erreichen / Berufs- und Privatleben miteinander vereinbaren
+
 > Wie rundet man den Beitrag ab?
  
 - Wenn ich meine Gedanken in einem Satz zusammenfassen müsste, würde ich sagen, dass
