@@ -178,8 +178,8 @@ Für die meisten Leute ist es selbstverständlich, nicht nur die passende Kleidu
 
 Was zu selten erwähnt wird: Die Firmen stellen in letzter Zeit Fragen über das Unternehmen, um davon überzeugt zu sein, dass der Bewerber sich über das Unternehmen informiert hat und diese Stelle sein Interesse wirklich weckt.
 Während des Gesprächs darf man nicht vergessen, sowohl den Augenkontakt zu halten als auch höflich und freundlich zu sein.
-Es gibt natürlich die floskelhaften Fragen, zu denen man sich gut vorbereiten kann, indem man entweder im Internet recherchiert oder ein paar Videos anschaut.
+Es gibt natürlich die floskelhaften Fragen, auf die man sich gut vorbereiten kann, indem man entweder im Internet recherchiert oder ein paar Videos anschaut.
 
-Es kann sein, dass eine schwierige Frage gestellt wird, deren Antwort man einfach nicht weiß. Falls Sie sich in einer solchen Situation befinden, würde ich empfehlen, die Ruhe zu bewahren, und nicht einfach "Ich habe keine Ahnung" zu sagen. Obwohl Sie die richtige Antwort nicht wissen, könnten Sie Ihre Gedanken laut aussprechen und einfach darüber nachdenken, dann kann der Arbeitgeber eventuell Ihre Denkweise nachvollziehen, und einen positiven Eindruck von Ihnen bekommen.
+Es kann sein, dass eine schwierige Frage gestellt wird, deren Antwort man einfach nicht weiß. Falls man sich in einer solchen Situation befindet, würde ich empfehlen, die Ruhe zu bewahren, und nicht einfach "Ich habe keine Ahnung" zu sagen. Obwohl man die richtige Antwort nicht weiß,kann man laut nachdenken. So kann der Arbeitgeber eventuell die Denkweise nachvollziehen und bekommt einen positiven Eindruck.
 
 Wenn ich alle Tipps in einem Satz zusammenfassen müsste, würde ich sagen, dass nicht nur die Pünktlichkeit und das Aussehen, sondern auch die Vorbereitung eine wichtige Rolle spielen.
