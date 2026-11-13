@@ -86,8 +86,12 @@
 ```text
 Sehr geehrte Damen und Herren,
  
-bezugnehmend auf Ihre Anfrage vom 03.10. bestätige ich hiermit den
-vereinbarten Liefertermin für den 15.10.
+bezugnehmend auf Ihre Beschwerde möchte ich mich dafür bei Ihnen entschuldigen, dass das System nicht reibungslos funktioniert / die Fenster nicht richtig eingesetzt worden sind].
+Wir hätten uns darum früher kümmern müssen, damit ein solches Problem gar nicht erst entstanden wäre. Das liegt daran, dass unser neuer Mitarbeiter noch nicht eingearbeitet worden ist.
+Ich kann Ihnen zusichern, dass die Störung schnellstmöglich behoben wird, indem wir einen erfahrenen [Techniker / Mitarbeiter] zu Ihnen schicken. 
+Es ist für uns ausschlaggebend, dass Sie auch weiterhin unser Kunde bleiben. 
+Wir versichern Ihnen, dass so etwas in Zukunft nicht mehr passieren wird und die neuen Schulungen für unsere Mitarbeiter langfristig dabei helfen werden.
+
  
 Für Rückfragen stehe ich Ihnen gerne zur Verfügung.
  
