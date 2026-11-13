@@ -14,8 +14,8 @@
 
 - Ich habe selbst erlebt, dass ...
 
-Mein konkreter Vorschlag wäre, diese Regelung zunächst für drei Monate als Testphase einzuführen. 
-Danach könnten wir im Team darüber sprechen, wie gut es funktioniert hat und was man noch verbessern könnte
+Es wäre sinnvoll, diese Regelung / Idee / Vorschlag zunächst für drei Monate als Testphase einzuführen. 
+Danach könnten wir im Team darüber sprechen, wie gut es funktioniert hat und was man noch verbessern könnte.
 
 ---
 ## 🏁 Schluss
@@ -91,7 +91,8 @@ Danach könnten wir im Team darüber sprechen, wie gut es funktioniert hat und w
 Sehr geehrte Damen und Herren,
  
 bezugnehmend auf Ihre Beschwerde möchte ich mich dafür bei Ihnen entschuldigen, dass das System nicht reibungslos funktioniert / die Fenster nicht richtig eingesetzt worden sind].
-Wir hätten uns darum früher kümmern müssen, damit ein solches Problem gar nicht erst entstanden wäre. Das liegt daran, dass unser neuer Mitarbeiter noch nicht eingearbeitet worden ist.
+Wir hätten uns darum früher kümmern müssen, damit ein solches Problem gar nicht erst entstanden wäre.
+Das liegt daran, dass unser neuer Mitarbeiter noch nicht eingearbeitet worden ist.
 Ich kann Ihnen zusichern, dass die Störung schnellstmöglich behoben wird, indem wir einen erfahrenen [Techniker / Mitarbeiter] zu Ihnen schicken. 
 Es ist für uns ausschlaggebend, dass Sie auch weiterhin unser Kunde bleiben. 
 Wir versichern Ihnen, dass so etwas in Zukunft nicht mehr passieren wird und die neuen Schulungen für unsere Mitarbeiter langfristig dabei helfen werden.
