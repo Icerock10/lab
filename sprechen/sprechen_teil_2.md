@@ -18,7 +18,7 @@
 - kümmern -> Problem nicht entstehen
 - es liegt an + D
 - vorgehen bei + D
-- einen Gutschein über 20 Euro ausstellen
+- einen Gutschein über 20 Euro `für` etwas ausstellen
 - die Garantie auf die Waren gewähren (предоставлять) | auf zwei Jahre verlängern
 - `sorgen für`, das Problem nicht mehr auftritt, `verhindern`
 - kurzfristige / langfristige Lösung
