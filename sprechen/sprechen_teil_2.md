@@ -14,7 +14,7 @@
 
 # 2. Lösung zu finden
 
-- in einem guten Licht darstellen
+- Es ist für unsere Reputation ausschlaggebend, dass unsere Firma in einem guten Licht dargestellt wird.
 - kümmern -> Problem nicht entstehen
 - es liegt an + D
 - vorgehen bei + D
