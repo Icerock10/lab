@@ -13,6 +13,10 @@
 5. Meine Erfahrung / Es wäre besser gewesen, wenn ...
 
 - Ich habe selbst erlebt, dass ...
+
+Mein konkreter Vorschlag wäre, diese Regelung zunächst für drei Monate als Testphase einzuführen. 
+Danach könnten wir im Team darüber sprechen, wie gut es funktioniert hat und was man noch verbessern könnte
+
 ---
 ## 🏁 Schluss
 - eine ausgewogene Work-Life-Balance erreichen / Berufs- und Privatleben miteinander vereinbaren
